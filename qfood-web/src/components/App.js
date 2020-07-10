@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+import Restaurant from './Restaurant';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-   <p>Hello world</p>
+    <Router>
+      <Route exact path="/:rest_name" component={Restaurant} />
+    </Router>
   );
 }
 

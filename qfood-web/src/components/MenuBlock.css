@@ -1,0 +1,44 @@
+.block {
+    width: 90%;
+    height: auto;
+    border: 5px solid #707070;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #ffffff;
+    padding-bottom: 0.6em;
+}
+
+.block_name {
+    width: 60%;
+    height: auto;
+    border: 5px solid #707070;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.4em;
+}
+
+.product .name {
+    font-weight: bold;
+}
+
+.product .price {
+    font-weight: bold;
+}
+
+.ingredients {
+    margin: 0 0.6em;
+    color: #404040;
+    font-style: italic;
+    line-height: 100%;
+}

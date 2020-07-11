@@ -12,12 +12,6 @@ class Restaurant extends React.Component {
                     <MenuBlock />
                     <MenuBlock />
                     <MenuBlock />
-                    <MenuBlock />
-                    <MenuBlock />
-                    <MenuBlock />
-                    <MenuBlock />
-                    <MenuBlock />
-                    <MenuBlock />
                 </div>
             </div>
         );

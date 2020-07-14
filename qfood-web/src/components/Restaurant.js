@@ -1,6 +1,7 @@
 import React from 'react';
 import './Restaurant.css';
 import MenuBlock from './MenuBlock';
+import Header from './Header'; 
 
 class Restaurant extends React.Component {
     constructor (props) {
@@ -37,7 +38,7 @@ class Restaurant extends React.Component {
 
             return (
                 <div>
-                    <div className='header'>{data['rest_name']}</div>
+                    <Header name={data['rest_name']} blocks={data['blocks']}/>
                     <div className='menu_column'>
                         {renderBlocks}
                     </div>

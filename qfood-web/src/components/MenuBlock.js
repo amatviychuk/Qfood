@@ -1,26 +1,32 @@
 import React from 'react';
 import './MenuBlock.css';
+// import Background from './../images/back1.png';
 
 class MenuBlock extends React.Component {
     render() {
+
+      var sectionStyle = {
+         // backgroundImage: `url(${Background})`
+      }
 
       const renderBlock = this.props.block['products'].map((line, i) => {
          switch(line['type']) {
             case 'small_title':
                return (
-               <div className='small_name'>-{line['text']}-</div>
+               <div className='small_name' key={i}>-{line['text']}-</div>
                );
 
             case 'price_label':
                return (
-               <div className='price_label'>{line['text']}</div>
+               <div className='price_label' key={i}>{line['text']}</div>
                );
 
             case 'meal':
                return (
-               <div>
+               <div key={i}>
                   <div className='product'>
                      <div className='name'>{line['name']}</div>
+                     <div className='dots'/>
                      <div className='price'>{line['price']}</div>
                   </div>
 
@@ -35,7 +41,7 @@ class MenuBlock extends React.Component {
       });
 
       return (
-         <div className='block'>
+         <div className='block' style={sectionStyle} id={this.props.block['name']}>
             <div className='block_name'>{ this.props.block['name'] }</div>
             {renderBlock}
          </div>

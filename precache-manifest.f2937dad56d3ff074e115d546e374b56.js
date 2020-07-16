@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6eb2563ddfc74e6f52b19bb6be12bd99",
+    "revision": "a284db083caa54a85963623fbda8cbcc",
     "url": "/Qfood/index.html"
   },
   {
-    "revision": "c860d221ad1450c91379",
+    "revision": "5527ef9fdfc98ea2cdcc",
     "url": "/Qfood/static/css/main.a3e1f916.chunk.css"
   },
   {
-    "revision": "70688a608308d1225357",
-    "url": "/Qfood/static/js/2.3f1a9557.chunk.js"
+    "revision": "40b903062359aec1a5b2",
+    "url": "/Qfood/static/js/2.fdfe0131.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Qfood/static/js/2.3f1a9557.chunk.js.LICENSE.txt"
+    "url": "/Qfood/static/js/2.fdfe0131.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c860d221ad1450c91379",
-    "url": "/Qfood/static/js/main.9059e745.chunk.js"
+    "revision": "5527ef9fdfc98ea2cdcc",
+    "url": "/Qfood/static/js/main.e102c174.chunk.js"
   },
   {
     "revision": "ca09de81a4a74d87aab4",

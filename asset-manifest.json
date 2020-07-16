@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Qfood/static/css/main.a3e1f916.chunk.css",
+    "main.js": "/Qfood/static/js/main.9059e745.chunk.js",
+    "main.js.map": "/Qfood/static/js/main.9059e745.chunk.js.map",
+    "runtime-main.js": "/Qfood/static/js/runtime-main.0af91d72.js",
+    "runtime-main.js.map": "/Qfood/static/js/runtime-main.0af91d72.js.map",
+    "static/js/2.3f1a9557.chunk.js": "/Qfood/static/js/2.3f1a9557.chunk.js",
+    "static/js/2.3f1a9557.chunk.js.map": "/Qfood/static/js/2.3f1a9557.chunk.js.map",
+    "index.html": "/Qfood/index.html",
+    "precache-manifest.ff1ecbb8e4bad730a38da53392b6ee30.js": "/Qfood/precache-manifest.ff1ecbb8e4bad730a38da53392b6ee30.js",
+    "service-worker.js": "/Qfood/service-worker.js",
+    "static/css/main.a3e1f916.chunk.css.map": "/Qfood/static/css/main.a3e1f916.chunk.css.map",
+    "static/js/2.3f1a9557.chunk.js.LICENSE.txt": "/Qfood/static/js/2.3f1a9557.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0af91d72.js",
+    "static/js/2.3f1a9557.chunk.js",
+    "static/css/main.a3e1f916.chunk.css",
+    "static/js/main.9059e745.chunk.js"
+  ]
+}

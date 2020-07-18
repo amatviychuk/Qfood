@@ -2,7 +2,6 @@ import React from 'react';
 import './Restaurant.css';
 import MenuBlock from './MenuBlock';
 import Header from './Header';
-import Data from '../jsons/menu1.json';
 
 class Restaurant extends React.Component {
     constructor (props) {
@@ -10,21 +9,11 @@ class Restaurant extends React.Component {
         this.state = {data: null};
     }
 
-    rest_name = this.props.match.params.rest_name;
-
-    uploadHandler = () => {
-        fetch('https://github.com/AndrewMos/Qfood/blob/master/qfood-back/Restaurants/good_food/2_13072020.json')
-          .then((response) => response.json())
-          .then((success) => {
-            this.setState({ data: success })
-          })
-          .catch((error) => {
-            // eslint-disable-next-line no-console
-            console.log(error);
-          });
-    };
+    rest_name = this.props.location.search.substr(3);
 
     render() {
+
+        console.log(this.props.location.search);
 
         const { data } = this.state;
 
@@ -44,9 +33,15 @@ class Restaurant extends React.Component {
                 </div>
             );
         } else {
-            // this.uploadHandler();
-            this.setState({ data: Data })
-            return (<p>Loading...</p>)
+            var d;
+            try {
+                d = require('../jsons/' + this.rest_name + '.json');
+            } catch (error) {
+                return (<p>Menu not found:(</p>)
+            }
+            
+            this.setState({ data: d })
+            return (<p>Menu not found:(</p>)
         }
     }
 }

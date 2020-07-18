@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Qfood/static/css/main.a3e1f916.chunk.css",
-    "main.js": "/Qfood/static/js/main.d3d9016b.chunk.js",
-    "main.js.map": "/Qfood/static/js/main.d3d9016b.chunk.js.map",
-    "runtime-main.js": "/Qfood/static/js/runtime-main.0af91d72.js",
-    "runtime-main.js.map": "/Qfood/static/js/runtime-main.0af91d72.js.map",
-    "static/js/2.60e66a69.chunk.js": "/Qfood/static/js/2.60e66a69.chunk.js",
-    "static/js/2.60e66a69.chunk.js.map": "/Qfood/static/js/2.60e66a69.chunk.js.map",
-    "index.html": "/Qfood/index.html",
-    "precache-manifest.7881a6ace1707082ec1753fa73e9eea7.js": "/Qfood/precache-manifest.7881a6ace1707082ec1753fa73e9eea7.js",
-    "service-worker.js": "/Qfood/service-worker.js",
-    "static/css/main.a3e1f916.chunk.css.map": "/Qfood/static/css/main.a3e1f916.chunk.css.map",
-    "static/js/2.60e66a69.chunk.js.LICENSE.txt": "/Qfood/static/js/2.60e66a69.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.a3e1f916.chunk.css",
+    "main.js": "/static/js/main.de1b7440.chunk.js",
+    "main.js.map": "/static/js/main.de1b7440.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.246daa01.js",
+    "runtime-main.js.map": "/static/js/runtime-main.246daa01.js.map",
+    "static/js/2.60e66a69.chunk.js": "/static/js/2.60e66a69.chunk.js",
+    "static/js/2.60e66a69.chunk.js.map": "/static/js/2.60e66a69.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d44df6b5ac70dc09cc430ebf15c246e7.js": "/precache-manifest.d44df6b5ac70dc09cc430ebf15c246e7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a3e1f916.chunk.css.map": "/static/css/main.a3e1f916.chunk.css.map",
+    "static/js/2.60e66a69.chunk.js.LICENSE.txt": "/static/js/2.60e66a69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0af91d72.js",
+    "static/js/runtime-main.246daa01.js",
     "static/js/2.60e66a69.chunk.js",
     "static/css/main.a3e1f916.chunk.css",
-    "static/js/main.d3d9016b.chunk.js"
+    "static/js/main.de1b7440.chunk.js"
   ]
 }

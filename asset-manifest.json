@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Qfood/static/css/main.a3e1f916.chunk.css",
-    "main.js": "/Qfood/static/js/main.e102c174.chunk.js",
-    "main.js.map": "/Qfood/static/js/main.e102c174.chunk.js.map",
+    "main.js": "/Qfood/static/js/main.3fb6638c.chunk.js",
+    "main.js.map": "/Qfood/static/js/main.3fb6638c.chunk.js.map",
     "runtime-main.js": "/Qfood/static/js/runtime-main.0af91d72.js",
     "runtime-main.js.map": "/Qfood/static/js/runtime-main.0af91d72.js.map",
-    "static/js/2.fdfe0131.chunk.js": "/Qfood/static/js/2.fdfe0131.chunk.js",
-    "static/js/2.fdfe0131.chunk.js.map": "/Qfood/static/js/2.fdfe0131.chunk.js.map",
+    "static/js/2.60e66a69.chunk.js": "/Qfood/static/js/2.60e66a69.chunk.js",
+    "static/js/2.60e66a69.chunk.js.map": "/Qfood/static/js/2.60e66a69.chunk.js.map",
     "index.html": "/Qfood/index.html",
-    "precache-manifest.f2937dad56d3ff074e115d546e374b56.js": "/Qfood/precache-manifest.f2937dad56d3ff074e115d546e374b56.js",
+    "precache-manifest.068ffef5ff804262bccd4282493e88dc.js": "/Qfood/precache-manifest.068ffef5ff804262bccd4282493e88dc.js",
     "service-worker.js": "/Qfood/service-worker.js",
     "static/css/main.a3e1f916.chunk.css.map": "/Qfood/static/css/main.a3e1f916.chunk.css.map",
-    "static/js/2.fdfe0131.chunk.js.LICENSE.txt": "/Qfood/static/js/2.fdfe0131.chunk.js.LICENSE.txt"
+    "static/js/2.60e66a69.chunk.js.LICENSE.txt": "/Qfood/static/js/2.60e66a69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0af91d72.js",
-    "static/js/2.fdfe0131.chunk.js",
+    "static/js/2.60e66a69.chunk.js",
     "static/css/main.a3e1f916.chunk.css",
-    "static/js/main.e102c174.chunk.js"
+    "static/js/main.3fb6638c.chunk.js"
   ]
 }

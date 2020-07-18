@@ -37,6 +37,7 @@
 .product .name {
     font-weight: bold;
     font-size: 0.9em;
+    white-space: nowrap;
 }
 
 .product .price {

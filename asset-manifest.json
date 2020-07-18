@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Qfood/static/css/main.a3e1f916.chunk.css",
-    "main.js": "/Qfood/static/js/main.3fb6638c.chunk.js",
-    "main.js.map": "/Qfood/static/js/main.3fb6638c.chunk.js.map",
+    "main.js": "/Qfood/static/js/main.b7b45764.chunk.js",
+    "main.js.map": "/Qfood/static/js/main.b7b45764.chunk.js.map",
     "runtime-main.js": "/Qfood/static/js/runtime-main.0af91d72.js",
     "runtime-main.js.map": "/Qfood/static/js/runtime-main.0af91d72.js.map",
     "static/js/2.60e66a69.chunk.js": "/Qfood/static/js/2.60e66a69.chunk.js",
     "static/js/2.60e66a69.chunk.js.map": "/Qfood/static/js/2.60e66a69.chunk.js.map",
     "index.html": "/Qfood/index.html",
-    "precache-manifest.068ffef5ff804262bccd4282493e88dc.js": "/Qfood/precache-manifest.068ffef5ff804262bccd4282493e88dc.js",
+    "precache-manifest.d8c421ed8ad60f4c74cc0f118e23d2fc.js": "/Qfood/precache-manifest.d8c421ed8ad60f4c74cc0f118e23d2fc.js",
     "service-worker.js": "/Qfood/service-worker.js",
     "static/css/main.a3e1f916.chunk.css.map": "/Qfood/static/css/main.a3e1f916.chunk.css.map",
     "static/js/2.60e66a69.chunk.js.LICENSE.txt": "/Qfood/static/js/2.60e66a69.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0af91d72.js",
     "static/js/2.60e66a69.chunk.js",
     "static/css/main.a3e1f916.chunk.css",
-    "static/js/main.3fb6638c.chunk.js"
+    "static/js/main.b7b45764.chunk.js"
   ]
 }

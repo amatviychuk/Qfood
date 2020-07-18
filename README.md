@@ -1,3 +1,0 @@
-# Qfood
-
-Project for restaurants 

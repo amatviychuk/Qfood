@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: auto;
+    padding: 0.2em 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration-color: #7e7e7e;
+    margin:  0.1em 0;
+}
+
+span {
+    font-size: 0.9em;
+}

@@ -1,34 +1,52 @@
 import React from 'react';
 import './MenuBlock.css';
+// import Background from './../images/back1.png';
 
 class MenuBlock extends React.Component {
     render() {
-        return (
-         <div className='block'>
-             <div className='block_name'>
-                PIZZA
-             </div>
-             <div className='product'>
-                <div className='name'>Pizza name</div>
-                <div className='price'>5$</div>
-             </div>
-             <div className='ingredients'>Tomato, salami, mashrooms, peperoni, salami, mashrooms, peperoni</div>
 
-             <div className='product'>
-                <div className='name'>Pizza name</div>
-                <div className='price'>5$</div>
-             </div>
-             <div className='ingredients'>Tomato, salami, mashrooms, peperoni, salami, mashrooms, peperoni</div>
+      var sectionStyle = {
+         // backgroundImage: `url(${Background})`
+      }
 
-             <div className='product'>
-                <div className='name'>Pizza name</div>
-                <div className='price'>5$</div>
-             </div>
-             <div className='ingredients'>Tomato, salami, mashrooms, peperoni, salami, mashrooms, peperoni</div>
+      const renderBlock = this.props.block['products'].map((line, i) => {
+         switch(line['type']) {
+            case 'small_title':
+               return (
+               <div className='small_name' key={i}>-{line['text']}-</div>
+               );
 
-         </div>  
-        );
-    }
+            case 'price_label':
+               return (
+               <div className='price_label' key={i}>{line['text']}</div>
+               );
+
+            case 'meal':
+               return (
+               <div key={i}>
+                  <div className='product'>
+                     <div className='name'>{line['name']}</div>
+                     <div className='dots'/>
+                     <div className='price'>{line['price']}</div>
+                  </div>
+
+                  <div className='ingredients'>{line['description']}</div>
+               </div>
+               );
+
+            default:
+            break;
+         }
+         return null;
+      });
+
+      return (
+         <div className='block' style={sectionStyle} id={this.props.block['name']}>
+            <div className='block_name'>{ this.props.block['name'] }</div>
+            {renderBlock}
+         </div>
+      );
+   }
 }
 
 export default MenuBlock;

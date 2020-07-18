@@ -9,11 +9,9 @@ class Restaurant extends React.Component {
         this.state = {data: null};
     }
 
-    rest_name = this.props.location.search.substr(3);
+    rest_name = this.props.match.params.rest_name;
 
     render() {
-
-        console.log(this.props.location.search);
 
         const { data } = this.state;
 

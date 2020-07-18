@@ -18,7 +18,7 @@ class MenuBlock extends React.Component {
 
             case 'price_label':
                return (
-               <div className='price_label' key={i}>{line['text']}</div>
+               <div className='price_label' key={i}><span className='s_name'>{line['text']}</span></div>
                );
 
             case 'meal':

@@ -11,8 +11,8 @@
                 {"type":"meal", "name":"7.GRZYB", "price":"20,00", "description":"200G wolowiny, pieczony grzyb, ser wedzony, karmelizowana cebula, majonez frzybowy"},
                 {"type":"meal", "name":"8.WLOCH", "price":"24,00", "description":"200G wolowiny, slonecznik, suszone pomidory, mozzarella, pesto, salsa, cebula, chrupki z pepperoni"},
                 {"type":"meal", "name":"9.ORZECH", "price":"24,00", "description":"200G wolowiny, chrupiancy boczek, chilli dzem, maslo orzechowe, salata rzymska, kielki pora, marchewka"},
-                {"type":"small_title", "text":" doloz 7,00zl i zjedz zestaw (coleslaw + cienkie frytki) "},
-                {"type":"small_title", "text":" doloz 8,00zl i zjedz zestaw (coleslaw + bataty) "}
+                {"type":"small_title", "text":" zestaw 7,00zl (coleslaw + cienkie frytki) "},
+                {"type":"small_title", "text":" zestaw 8,00zl (coleslaw + bataty) "}
             ]
         },
         {"name":"DODATKI", "products":
@@ -20,7 +20,7 @@
                 {"type":"meal", "name":"CHRUPIANCE KAWALKI KURCZAKA", "price":"12,00"},
                 {"type":"meal", "name":"CHRUPIANCy BOCZEK W PANIERCE", "price":"10,00"},
                 {"type":"meal", "name":"KALMARY Z MAJONEZEM BAZYLIOWYM", "price":"13,00"},
-                {"type":"meal", "name":"DOMOWE CHIPSY ZIEMNIACZANE + SOS SEROWY", "price":"11,00"},
+                {"type":"meal", "name":"DOMOWE CHIPSY ZIEMNIACZANE", "price":"11,00"},
                 {"type":"meal", "name":"ZEBERKA + SOS BBQ", "price":"13,00"},
                 {"type":"meal", "name":"COLESLAW", "price":"5,00"},
                 {"type":"meal", "name":"CIENKIE FRYTKI", "price":"6,00"},

@@ -7,6 +7,22 @@ import forkIcon from '../icons/fork.png';
 class Header extends React.Component {
 
     render() {
+      const renderLinks = this.props.links.map((link, i) => {
+        switch (link['name']) {
+          case 'instagram':
+            return(
+              <a href={link['link']}><img src={igIcon} alt="" className="icon" /> </a>
+            );
+
+            case 'facebook':
+              return(
+                <a href={link['link']}><img src={fbIcon} alt="" className="icon" /> </a>
+              );
+        
+          default:
+            break;
+        }
+      });
       return (
         <div className="header_img">
           <div className="info_block"> 
@@ -14,8 +30,7 @@ class Header extends React.Component {
             <div className="rest_name">{this.props.name}</div>
       <div className="rest_address">{this.props.address}</div>
             <div className="social_block">
-              <img src={fbIcon} alt="" className="icon" />
-              <img src={igIcon} alt="" className="icon" />
+              <renderLinks />
             </div>
           </div>
         </div>

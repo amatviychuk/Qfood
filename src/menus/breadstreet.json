@@ -69,5 +69,10 @@
                 {"type":"meal", "name":"Sok owocowy", "price":"6,00"}
             ] 
         }
-    ]
+    ], 
+    "links":
+        [
+            {"name":"facebook", "link":"https://www.facebook.com/BreadStreetZapieksy/"},
+            {"name":"instagram", "link":"https://www.instagram.com/breadstreet_zapieksy/"}
+        ]
 }

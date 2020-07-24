@@ -24,9 +24,14 @@
     animation-duration: 0.2s;
 }
 
+.product {
+    width: 100%;
+}
+
 .name_price {
     display: flex;
     justify-content: space-between;
+    width: 100%;
     font-weight: 600;
     font-size: 0.9em;
     color: #363636;

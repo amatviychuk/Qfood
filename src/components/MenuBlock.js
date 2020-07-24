@@ -20,11 +20,17 @@ class MenuBlock extends React.Component {
 
       const renderBlock = this.props.block['products'].map((line, i) => {
          switch(line['type']) {
+            case 'info':
+               return(
+                  <div className="menu_info_block">
+                     <span>{line['text']}</span>
+                  </div>
+               );
             case 'small_title':
                return (
-               <div className='small_name_block' key={i}>
-                  <span className="small_name">{line['text']}</span>
-               </div>
+                  <div className='small_name_block' key={i}>
+                     <span className="small_name">{line['text']}</span>
+                  </div>
                );
 
             case 'meal':
@@ -48,8 +54,6 @@ class MenuBlock extends React.Component {
       });
 
       const openClose = () => {this.setState({isOpen:!this.state.isOpen})}
-
-      console.log(arrow);
 
       return (
 

@@ -6,12 +6,26 @@ import Header from './Header';
 class Restaurant extends React.Component {
     constructor (props) {
         super(props)
-        this.state = {data: null};
+        this.state = {data: null, loading: false};
     }
 
     rest_name = this.props.match.params.rest_name;
 
+    getMenuFromGit() {
+        this.setState({loading: true})
+        fetch("https://raw.githubusercontent.com/AndrewMos/Qfood/deploy-v2/src/menus/" + this.rest_name + ".json")
+        .then(response => response.json())
+        .then((jsonData) => {
+          this.setState({data: jsonData})
+        })
+        .catch((error) => {
+            this.setState({data: null})
+        })
+    }
+   
     render() {
+
+        
 
         const { data } = this.state;
                
@@ -32,9 +46,8 @@ class Restaurant extends React.Component {
                 </div>
             );
         } else {
-            let d = require('../menus/' + this.rest_name + '.json');
-            this.setState({ data: d });
-            return (<p>Loading...</p>);
+            if(!this.state.loading) this.getMenuFromGit();
+            return (<p>Hard to find your restaurant, sorry...</p>);
         }
     }
 }

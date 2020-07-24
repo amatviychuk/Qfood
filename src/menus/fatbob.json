@@ -11,8 +11,8 @@
                 {"type":"meal", "name":"7.GRZYB", "price":"20,00", "description":"200G wolowiny, pieczony grzyb, ser wedzony, karmelizowana cebula, majonez frzybowy"},
                 {"type":"meal", "name":"8.WLOCH", "price":"24,00", "description":"200G wolowiny, slonecznik, suszone pomidory, mozzarella, pesto, salsa, cebula, chrupki z pepperoni"},
                 {"type":"meal", "name":"9.ORZECH", "price":"24,00", "description":"200G wolowiny, chrupiancy boczek, chilli dzem, maslo orzechowe, salata rzymska, kielki pora, marchewka"},
-                {"type":"small_title", "text":" zestaw 7,00zl (coleslaw + cienkie frytki) "},
-                {"type":"small_title", "text":" zestaw 8,00zl (coleslaw + bataty) "}
+                {"type":"info", "text":" zestaw 7,00zl (coleslaw + cienkie frytki) "},
+                {"type":"info", "text":" zestaw 8,00zl (coleslaw + bataty) "}
             ]
         },
         {"name":"DODATKI", "products":

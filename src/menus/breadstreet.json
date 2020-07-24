@@ -23,7 +23,7 @@
         },
         {"name":"SUREP TRIO", "products":
             [
-                {"type":"small_title", "text":" 3 mini wersje dowolnych zapiekanek "},
+                {"type":"info", "text":" 3 mini wersje dowolnych zapiekanek "},
                 {"type":"meal", "name":"Klasyczne", "price":"16,90"},
                 {"type":"meal", "name":"Premium", "price":"21,90"}
             ] 

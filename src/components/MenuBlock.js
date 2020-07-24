@@ -1,12 +1,18 @@
 import React from 'react';
 import './MenuBlock.css';
+import arrow from '../icons/up-arrow.png';
 
 class MenuBlock extends React.Component {
    constructor(props) {
         super(props);
         this.state = {
-            isOpen: false
+            isOpen:false
         };
+        if (props.id === 0) {
+         this.state = {
+            isOpen:true
+        };
+        }
     }
 
     render() {
@@ -14,15 +20,12 @@ class MenuBlock extends React.Component {
 
       const renderBlock = this.props.block['products'].map((line, i) => {
          switch(line['type']) {
-            // case 'small_title':
-            //    return (
-            //    <div className='small_name' key={i}>-{line['text']}-</div>
-            //    );
-
-            // case 'price_label':
-            //    return (
-            //    <div className='price_label' key={i}><span className='s_name'>{line['text']}</span></div>
-            //    );
+            case 'small_title':
+               return (
+               <div className='small_name_block' key={i}>
+                  <span className="small_name">{line['text']}</span>
+               </div>
+               );
 
             case 'meal':
                return (
@@ -45,10 +48,16 @@ class MenuBlock extends React.Component {
 
       const openClose = () => {this.setState({isOpen:!this.state.isOpen})}
 
+      console.log(arrow);
+
       return (
 
+
          <div className='block' id={this.props.block['name']}>
-            <div onClick={openClose} className='block_name'>{this.props.block['name']}</div>
+            <div onClick={openClose} className='block_name'>
+               {this.props.block['name']} 
+               <img className={this.state.isOpen?"arrow rot":"arrow"} src={arrow} alt=""/> 
+            </div>
             {this.state.isOpen?renderBlock:null}
          </div>
       );

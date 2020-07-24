@@ -18,7 +18,7 @@ class Restaurant extends React.Component {
         if (data != null) {
             const renderBlocks = data['blocks'].map((block, i) => {
                 return (
-                    <MenuBlock block={block} key={i}/>
+                    <MenuBlock block={block} key={i} id={i}/>
                 );
             });
 

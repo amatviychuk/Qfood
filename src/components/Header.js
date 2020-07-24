@@ -2,25 +2,25 @@ import React from 'react';
 import './Header.css';
 
 class Header extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isOpen: false
-        };
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         isOpen: false
+    //     };
+    // }
+
+    // 
 
     render() {
-        const openCloseHeader = () => {this.setState({isOpen:!this.state.isOpen})}
-        const renderLinks = this.props.blocks.map((block, i) => {
-            return (
-                <a key={i} href={'#'+block['name']}>
-                    <span>{block['name']}</span>
-                </a>
-            );
-        });
-        return (
-        <div onClick={openCloseHeader} className='header'>{this.props.name} {this.state.isOpen?renderLinks:null} </div>
-        );
+      return (
+        <div className="header_img">
+          <div className="info_block"> 
+            <div className="logo_circle"></div>
+      <div className="rest_name">{this.props.name}</div>
+            <div className="rest_address">Address 34</div>
+          </div>
+        </div>
+      );
     }
 }
 

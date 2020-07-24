@@ -28,9 +28,9 @@ class Header extends React.Component {
           <div className="info_block"> 
             <div style={{backgroundImage: `url(${forkIcon})`}} className="logo_circle"></div>
             <div className="rest_name">{this.props.name}</div>
-      <div className="rest_address">{this.props.address}</div>
+            <div className="rest_address">{this.props.address}</div>
             <div className="social_block">
-              <renderLinks />
+              {renderLinks}
             </div>
           </div>
         </div>

@@ -18,6 +18,8 @@
     margin-top: 0.1em;
     height: auto;
     padding: 1em;
+    animation: fadeIn;
+    animation-duration: 0.2s;
 }
 
 .name_price {
@@ -46,7 +48,7 @@
 
 .arrow {
     width: 18px;
-    
+    height: 18px;
 }
 
 .rot {

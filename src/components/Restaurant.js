@@ -22,10 +22,10 @@ class Restaurant extends React.Component {
             this.setState({data: null})
         })
     }
+
+    
    
     render() {
-
-        
 
         const { data } = this.state;
                
@@ -38,6 +38,7 @@ class Restaurant extends React.Component {
 
             return (
                 <div>
+                    {console.log(data)}
                     <Header name={data['rest_name']} address={data['rest_address']} links={data['links']} />
                     <div className='menu_column'>
                         <span className="menu"> MENU </span>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './MenuBlock.css';
-import arrow from '../icons/up-arrow.png';
+import arrow from '../icons/arrow.png';
 
 class MenuBlock extends React.Component {
    constructor(props) {
@@ -30,6 +30,7 @@ class MenuBlock extends React.Component {
             case 'meal':
                return (
                <div key={i} className="meal_block">
+                  {line['img']?<img className="meal_img" src={line['img']} alt=""/>:null}
                   <div className="product">
                      <div className='name_price'>
                         <span className='name'>{line['name']}</span>

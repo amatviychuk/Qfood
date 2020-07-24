@@ -18,6 +18,8 @@
     margin-top: 0.1em;
     height: auto;
     padding: 1em;
+    display: flex;
+    flex-direction: row;
     animation: fadeIn;
     animation-duration: 0.2s;
 }
@@ -47,10 +49,17 @@
 }
 
 .arrow {
-    width: 18px;
-    height: 18px;
+    margin: auto 0;
+    width: 20px;
+    height: 12px;
 }
 
 .rot {
     transform: rotate(180deg);
+}
+
+.meal_img {
+    height: 5em;
+    margin-right: 1em;
+    border-radius: 3px;
 }

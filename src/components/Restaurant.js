@@ -26,6 +26,7 @@ class Restaurant extends React.Component {
                 <div>
                     <Header name={data['rest_name']} />
                     <div className='menu_column'>
+                        <span className="menu"> MENU </span>
                         {renderBlocks}
                     </div>
                 </div>

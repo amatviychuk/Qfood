@@ -1,78 +1,47 @@
-{"rest_name":"Bread Street", "rest_address":"Wroclawska 7, Poznan", "blocks":
+{"rest_name":"Meat & Wine", "rest_address":"Шевченка 65, Полтава", "blocks":
     [
-        {"name":"ZAPIEKANKI KLASYCZNE", "products":
+        {"name":"Салати", "products":
             [
-                {"type":"meal", "name":"Tradycja", "price":"14,90", "description":"Sos pomidorowy, mozzarella, pieczarki (vege)", "img":"https://scontent-vie1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/75362574_2889671931066552_2387959335554847688_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=AS9JLmBOiBAAX8nm-71&oh=6a6f42dd605aed615de5330ce7b868a0&oe=5F4615F9"},
-                {"type":"meal", "name":"Tradycja+", "price":"14,90", "description":"Sos pomidorowy, mozzarella, szynka, pieczarki"},
-                {"type":"meal", "name":"Wiejska", "price":"14,90", "description":"Sos pomidorowy, mozzarella, wandzony boczek, kiszony ogorek"},
-                {"type":"meal", "name":"IV sery", "price":"14,90", "description":"Sos pomidorowy, mozzarella, parmezan, camembert, cheddar"},
-                {"type":"meal", "name":"Na ostro", "price":"14,90", "description":"Sos pomidorowy, salami, jalapeno"},
-                {"type":"meal", "name":"Mensna", "price":"14,90", "description":"Sos pomidorowy, mozzarella, marynowany filet z kurczaka"}
+                {"type":"meal", "name":"Салат Грецький 250г.", "price":"70", "description":"Помідор, огірок, перець болгарський, маслини, листя салату, лимон, сир Фета, цибуля, оливкова заправка.", "img":"https://static.wixstatic.com/media/cb4d20_648efef5dbdc428381a6ead303e3e1d8~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат Цезар 250г.", "price":"95", "description":"Куряче філе, бекон, помідор, листя салату, сухарі, пармезан, часник, соус Цезар.", "img":"https://static.wixstatic.com/media/cb4d20_004766f8d8114d7ba16542477bbee364~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат з теплими кульками 250г.", "price":"80", "description":"Картопляно-сирні кульки, помідор, листя салату, яйце, огірок, пармезан, заправка із соуса Ранч та гірчиці.", "img":"https://static.wixstatic.com/media/cb4d20_f9d18700eb05440ebb62c4aa975c8ef5~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат з індичкою та соусом ранч 250г.", "price":"70", "description":"М’ясо індички, помідор, яблуко, ізюм, листя салату, пекінська капуста, соус Ранч.", "img":"https://static.wixstatic.com/media/cb4d20_e94b7b8bd15d433fa2c1f36470e5f3f3~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат з куркою та персиком 250г.", "price":"75", "description":"Куряче філе, персик консервований, помідор, листя салату, горіх кеш’ю, соус Ранч."},
+                {"type":"meal", "name":"Салат Нісуаз 250г.", "price":"90", "description":"Тунець, помідор, перець болгарський, яйце, цибуля, листя салату, маслини, анчоуси, спаржева квасоля, лимон, соус Гірчичний."}
             ]
         },
-        {"name":"ZAPIKANKI PREMIUM", "products":
+        {"name":"Перші страви", "products":
             [                
-                {"type":"meal", "name":"Wloski romance", "price":"16,90", "description":"Sos pomidorowy, mozzarella, szynka parmenska, parmezan, oliwa truflowa"},
-                {"type":"meal", "name":"Hiszpanski temperament", "price":"16,90", "description":"Dojrzewajence chorizo cular, tapenada, kapary"},
-                {"type":"meal", "name":"Zbojnicka", "price":"16,90", "description":"Sos pomidorowy, mozzarella, filet z kurczaka, wendzony boczek, camembert, kiszony ogorek"},
-                {"type":"meal", "name":"Pulled pork", "price":"16,90", "description":"Sos pomidorowy, mozzarella, szarpana wieprzowina, piklowana czerwona cebula"},
-                {"type":"meal", "name":"Meksykanska", "price":"16,90", "description":"Sos pomidorowy, mozzarella, wolowina po meksykansku z czerwona fasola i kukurydza, papryczki jalapeno, nachos"},
-                {"type":"meal", "name":"Toskanska", "price":"16,90", "description":"Sos pomidorowy, mozzarella, suszone pomidory, maskarpone, pomidorki koktejlowe, krem balsamiczny"},
-                {"type":"meal", "name":"Wegan weganski", "price":"16,90", "description":"Sos pomidorowy, weganski ser, tofu, piklowana czerwona cebula, kukurydza, pieczarki, suszone pomidory"}
+                {"type":"meal", "name":"Бульон з індичкою та локшиною 250г.", "price":"35", "img":"https://static.wixstatic.com/media/cb4d20_eb935d84866c40f5927fc7cbd166ad5d~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Крем-суп із шампіньонів 250г.", "price":"55", "img":"https://static.wixstatic.com/media/cb4d20_593bead82028403f94a73acb2f21c10c~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Крем-суп із картоплі з беконом 250г.", "price":"50"},
+                {"type":"meal", "name":"Крем-суп із гарбуза з беконом та грінками 250г.", "price":"55"},
+                {"type":"meal", "name":"Окрошка", "price":"45"}
             ]
         },
-        {"name":"SUREP TRIO", "products":
-            [
-                {"type":"info", "text":" 3 mini wersje dowolnych zapiekanek "},
-                {"type":"meal", "name":"Klasyczne", "price":"16,90"},
-                {"type":"meal", "name":"Premium", "price":"21,90"}
-            ] 
-        },
-        {"name":"SALATKI", "products":
-            [
-                {"type":"meal", "name":"Cezar Cafe de Paris", "price":"16,90", "description":"Mix salat, glazurowany filet z kurczaka, pomidorki koktajlowe, kukurydza, grzanki, parmezan"},
-                {"type":"meal", "name":"Pulled salad BBQ", "price":"16,90", "description":"Mix salat, szrpana wieprzowina, piklowana czerwona cebula, papryczki jalapeno, zielony ogorek"},
-                {"type":"meal", "name":"Mozzarela di Buffala", "price":"16,90", "description":"Mix salat, smietankowa mozzarella, suszone pomidory, kukurydza, zielony ogorek, pomidorki koktajlowe"},
-                {"type":"meal", "name":"Halloumi grill salad", "price":"16,90", "description":"Mix salat, grillowany ser halloumi, orzechy wloskie, guacamole, limonka, pomidorki koktajlowe"}
+        {"name":"М'ясні та рибні страви", "products":
+            [                
+                {"type":"meal", "name":"Куряча дошка з соусом Ранч", "price":"95", "img":"https://static.wixstatic.com/media/cb4d20_f0a693b556474874aa618fb028326541~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Стейк із телятини з овочами гриль 350г.", "price":"160", "img":"https://static.wixstatic.com/media/cb4d20_78d043efc5bb4c398152e954e67a2e29~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Кебаб 350г.", "price":"95"},
+                {"type":"meal", "name":"Вітелло тоннато 180г.", "price":"85"},
+                {"type":"meal", "name":"Фіш енд Чіпс 300г.", "price":"100"},
+                {"type":"meal", "name":"Мясо пулькогі 330г.", "price":"115"},
+                {"type":"meal", "name":"Свинина BBQ з овочами 400г.", "price":"160"}
             ]
         },
-        {"name":"FRYTKI", "products":
-            [
-                {"type":"meal", "name":"Pulled pork BBQ", "price":"16,90", "description":"Frytki, szarpana wieprzowina, ser cheddar, piklowana czerwona cebulka, szczypiorek", "img":"https://scontent-vie1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/106546543_185859166225844_1641846938054120581_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=ZCquu4h7tc8AX_4xPvm&oh=50cc14960a566016fce6457cbca5d913&oe=5F458EF0"},
-                {"type":"meal", "name":"Chilli con carne", "price":"16,90", "description":"Frytki, chilli con carne, ser cheddar, guacamole, nachos, szczypiorek"},
-                {"type":"meal", "name":"Indyk teriyaki", "price":"16,90", "description":"Frytki, szarpany indyk reryiaki, ser cheddar, limonka, kolendra"},
-                {"type":"meal", "name":"Bekon & Kurczak", "price":"16,90", "description":"Frytki, kurczak, boczek, ser cheddar, piklowany ogorek, szczypiorek"},
-                {"type":"meal", "name":"Cherry marcarpone", "price":"16,90", "description":"Frytki, pieczarki, pomidorki koktajlowe, ser mascarpone, oliwa czosnkowa, rukola"}
-                
+        {"name":"Гарячі страви", "products":
+            [                
+                {"type":"meal", "name":"Локшина з телятиною та цибулею-карамель 280г.", "price":"80", "img":"https://static.wixstatic.com/media/cb4d20_1c31bbfd2fda46e58c9b2e854c30cf97~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Паста Карбонара 250г.", "price":"85", "img":"https://static.wixstatic.com/media/cb4d20_0ac102cc2f9d4a968cbc9e7735adcc87~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Жар курка з локшиною. 280г.", "price":"75"},
+                {"type":"meal", "name":"Овочі гриль з соусом Айолі.250г.", "price":"65"}
             ]
-        },
-        {"name":"MENU DZICIENCE", "products":
-            [
-                {"type":"meal", "name":"Mini zapiekanka", "price":"5,90", "description":"Sos pomidorowy, mozzarella, szynka"},
-                {"type":"meal", "name":"Porcja frytek z sosem", "price":"7,90"}
-            ] 
-        },
-        {"name":"NAPOJE", "products":
-            [
-                {"type":"meal", "name":"Sok tloczony", "price":"6,00"},
-                {"type":"meal", "name":"Agrestada", "price":"8,90", "description":"Malina / truskawka / rabarbar"},
-                {"type":"meal", "name":"Fentimans rose drink", "price":"10,90"},
-                {"type":"meal", "name":"Bio lemonada", "price":"10,90"},
-                {"type":"meal", "name":"Yerba mate", "price":"12,90"},
-                {"type":"meal", "name":"Almdudler", "price":"12,90", "description":"Austriacka lemoniada ziolowa"},
-                {"type":"price_label", "text":"(250 ml)"},
-                {"type":"meal", "name":"Coca-cola / Zero", "price":"6,00"},
-                {"type":"meal", "name":"Fanta", "price":"6,00"},
-                {"type":"meal", "name":"Sprite", "price":"6,00"},
-                {"type":"meal", "name":"Kinley", "price":"6,00"},
-                {"type":"meal", "name":"Fuzetea", "price":"6,00"},
-                {"type":"meal", "name":"Sok owocowy", "price":"6,00"}
-            ] 
         }
     ], 
     "links":
         [
-            {"name":"facebook", "link":"https://www.facebook.com/BreadStreetZapieksy/"},
-            {"name":"instagram", "link":"https://www.instagram.com/breadstreet_zapieksy/"}
+            {"name":"facebook", "link":"https://www.facebook.com"},
+            {"name":"instagram", "link":"https://www.instagram.com"}
         ]
 }

@@ -26,11 +26,9 @@ class Restaurant extends React.Component {
     
    
     render() {
-
-        const { data } = this.state;
                
-        if (data != null) {
-            const renderBlocks = data['blocks'].map((block, i) => {
+        if (this.state.data != null) {
+            const renderBlocks = this.state.data['blocks'].map((block, i) => {
                 return (
                     <MenuBlock block={block} key={i} id={i}/>
                 );
@@ -38,8 +36,7 @@ class Restaurant extends React.Component {
 
             return (
                 <div>
-                    {console.log(data)}
-                    <Header name={data['rest_name']} address={data['rest_address']} links={data['links']} />
+                    <Header name={this.state.data['rest_name']} address={this.state.data['rest_address']} links={this.state.data['links']} />
                     <div className='menu_column'>
                         <span className="menu"> MENU </span>
                         {renderBlocks}

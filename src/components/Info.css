@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5em;
+    background-color: #ffffff;
+    max-width: 30em;
+    min-width: 18em;
+    margin: auto;
+}
+
+.logo {
+    background-color: rgb(126, 138, 246);
+    margin: 1em;
+    padding: 0.3em 0.9em;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.sp {
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.we_offer {
+    background-color: rgb(126, 138, 246);
+    margin: 1em;
+    padding: 0.2em 0.7em;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 1.2em;
+    height: 1.2em;
+    padding: 6px;
+
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid #666;
+    border-color: rgb(126, 138, 246);;
+    color: rgb(126, 138, 246);
+    text-align: center;
+    font-weight: 800;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+}
+
+.menu_img {
+    width: 100%;
+}
+
+.try_here {
+
+    width: 100%;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(126, 138, 246);
+    text-decoration: underline;
+}
+
+.call_me {
+    margin-top: 2em;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.num {
+    margin-top: 0.2em;
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}

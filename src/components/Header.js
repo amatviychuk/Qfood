@@ -11,16 +11,16 @@ class Header extends React.Component {
         switch (link['name']) {
           case 'instagram':
             return(
-              <a href={link['link']}><img src={igIcon} alt="" className="icon" /> </a>
+              <a key={i} href={link['link']}><img src={igIcon} alt="" className="icon" /> </a>
             );
 
             case 'facebook':
               return(
-                <a href={link['link']}><img src={fbIcon} alt="" className="icon" /> </a>
+                <a key={i} href={link['link']}><img src={fbIcon} alt="" className="icon" /> </a>
               );
         
           default:
-            break;
+            return null;
         }
       });
       return (

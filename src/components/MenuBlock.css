@@ -48,6 +48,10 @@
     color: #363636;
 }
 
+.name {
+    margin-right: 2em;
+}
+
 .ingredients {
     margin: 0.2em 0 ;
     margin-right: 6em;

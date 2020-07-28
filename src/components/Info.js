@@ -19,10 +19,10 @@ class Info extends React.Component {
                 <div className="numberCircle">3</div>
                 <span className="sp">Техническая поддержка и обновление информации в меню — изменения цены, позиций, состава блюд.</span>
                 <img src={Try_here} className="try_here" alt=""/>
-                <span className="link">www.q-food.co/breadstreet</span>
+                <span className="link"><a target="_blank" rel="noopener noreferrer" href="http://www.q-food.co/breadstreet">q-food.co/breadstreet</a></span>
                 <span className="call_me">Оставить заявку:</span>
-                <span className="num">Viber/Telegram: <a href="tel:+380956176146">095 617 6146</a></span>
-                <span className="num">E-mail: <a href="mailto: qfood.menu@gmail.com">qfood.menu@gmail.com</a></span>
+                <span className="num">Viber/Telegram: <a className="num_mail" href="tel:+380956176146">095 617 6146</a></span>
+                <span className="num">E-mail: <a className="num_mail" href="mailto: qfood.menu@gmail.com">qfood.menu@gmail.com</a></span>
             </div>
         );
     }

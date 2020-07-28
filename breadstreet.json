@@ -1,0 +1,47 @@
+{"rest_name":"Bread Street", "rest_address":"Шевченка 65, Полтава", "blocks":
+    [
+        {"name":"Салати", "products":
+            [
+                {"type":"meal", "name":"Салат Грецький 250г.", "price":"70", "description":"Помідор, огірок, перець болгарський, маслини, листя салату, лимон, сир Фета, цибуля, оливкова заправка.", "img":"https://static.wixstatic.com/media/cb4d20_648efef5dbdc428381a6ead303e3e1d8~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат Цезар 250г.", "price":"95", "description":"Куряче філе, бекон, помідор, листя салату, сухарі, пармезан, часник, соус Цезар.", "img":"https://static.wixstatic.com/media/cb4d20_004766f8d8114d7ba16542477bbee364~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат з теплими кульками 250г.", "price":"80", "description":"Картопляно-сирні кульки, помідор, листя салату, яйце, огірок, пармезан, заправка із соуса Ранч та гірчиці.", "img":"https://static.wixstatic.com/media/cb4d20_f9d18700eb05440ebb62c4aa975c8ef5~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат з індичкою та соусом ранч 250г.", "price":"70", "description":"М’ясо індички, помідор, яблуко, ізюм, листя салату, пекінська капуста, соус Ранч.", "img":"https://static.wixstatic.com/media/cb4d20_e94b7b8bd15d433fa2c1f36470e5f3f3~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Салат з куркою та персиком 250г.", "price":"75", "description":"Куряче філе, персик консервований, помідор, листя салату, горіх кеш’ю, соус Ранч."},
+                {"type":"meal", "name":"Салат Нісуаз 250г.", "price":"90", "description":"Тунець, помідор, перець болгарський, яйце, цибуля, листя салату, маслини, анчоуси, спаржева квасоля, лимон, соус Гірчичний."}
+            ]
+        },
+        {"name":"Перші страви", "products":
+            [                
+                {"type":"meal", "name":"Бульон з індичкою та локшиною 250г.", "price":"35", "img":"https://static.wixstatic.com/media/cb4d20_eb935d84866c40f5927fc7cbd166ad5d~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Крем-суп із шампіньонів 250г.", "price":"55", "img":"https://static.wixstatic.com/media/cb4d20_593bead82028403f94a73acb2f21c10c~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Крем-суп із картоплі з беконом 250г.", "price":"50"},
+                {"type":"meal", "name":"Крем-суп із гарбуза з беконом та грінками 250г.", "price":"55"},
+                {"type":"meal", "name":"Окрошка", "price":"45"}
+            ]
+        },
+        {"name":"М'ясні та рибні страви", "products":
+            [                
+                {"type":"meal", "name":"Куряча дошка з соусом Ранч", "price":"95", "img":"https://static.wixstatic.com/media/cb4d20_f0a693b556474874aa618fb028326541~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Стейк із телятини з овочами гриль 350г.", "price":"160", "img":"https://static.wixstatic.com/media/cb4d20_78d043efc5bb4c398152e954e67a2e29~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Кебаб 350г.", "price":"95"},
+                {"type":"meal", "name":"Вітелло тоннато 180г.", "price":"85"},
+                {"type":"meal", "name":"Фіш енд Чіпс 300г.", "price":"100"},
+                {"type":"meal", "name":"Мясо пулькогі 330г.", "price":"115"},
+                {"type":"meal", "name":"Свинина BBQ з овочами 400г.", "price":"160"}
+            ]
+        },
+        {"name":"Гарячі страви", "products":
+            [                
+                {"type":"meal", "name":"Локшина з телятиною та цибулею-карамель 280г.", "price":"80", "img":"https://static.wixstatic.com/media/cb4d20_1c31bbfd2fda46e58c9b2e854c30cf97~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Паста Карбонара 250г.", "price":"85", "img":"https://static.wixstatic.com/media/cb4d20_0ac102cc2f9d4a968cbc9e7735adcc87~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
+                {"type":"meal", "name":"Жар курка з локшиною. 280г.", "price":"75"},
+                {"type":"meal", "name":"Овочі гриль з соусом Айолі.250г.", "price":"65"}
+            ]
+        }
+    ], 
+    "links":
+        [
+            {"name":"facebook", "link":"https://www.facebook.com"},
+            {"name":"instagram", "link":"https://www.instagram.com"}
+        ]
+}

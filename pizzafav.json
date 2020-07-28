@@ -1,0 +1,46 @@
+{"rest_name":"Pizza Fav", "blocks":
+    [
+        {"name":"PIZZA", "products":
+            [
+                {"type":"small_title", "text":"Classic"},
+                {"type":"price_label", "text":"30/40/50cm"},
+                {"type":"meal", "name":"Margherita", "price":"5$/7$/10$"},
+                {"type":"meal", "name":"Peperoni", "price":"6$/8$/11$", "description":"Salami, paprik"},
+                {"type":"meal", "name":"Prosciutto", "price":"6$/8$/11$", "description":"Prosciutto meat"},
+                {"type":"small_title", "text":"Premium"},
+                {"type":"meal", "name":"Ham and mushroom", "price":"7$/9$/12$", "description":"Ham, mushrooms, peperoni"},
+                {"type":"meal", "name":"Toscana", "price":"7$/9$/12$", "description":"Peperoni, olives"}
+            ]
+        },
+        {"name":"PASTA", "products":
+            [
+                {"type":"small_title", "text":"Classic"},
+                {"type":"meal", "name":"Fettuccine", "price":"6$"},
+                {"type":"meal", "name":"Spaghetti with garlic", "price":"6$"},
+                {"type":"meal", "name":"Genoese Pesto", "price":"6$"},
+                {"type":"small_title", "text":"Premium"},
+                {"type":"meal", "name":"Kanelone", "price":"6$"},
+                {"type":"meal", "name":"Farfalle", "price":"6$"}
+            ]
+        },
+        {"name":"DRINKS", "products":
+            [
+
+                {"type":"meal", "name":"Watter", "price":"2$"},
+                {"type":"meal", "name":"Cola", "price":"3$"},
+                {"type":"meal", "name":"Fanta", "price":"3$"},
+                {"type":"meal", "name":"Cold tea", "price":"3$"}
+            ]
+        },
+        {"name":"COFFEE", "products":
+            [
+                {"type":"price_label", "text":"small/large"},
+                {"type":"meal", "name":"Espresso", "price":"2$/3$"},
+                {"type":"meal", "name":"Cappuccino", "price":"3$/4$"},
+                {"type":"meal", "name":"Americano", "price":"3$/4$"},
+                {"type":"meal", "name":"Late", "price":"3$/4$"},
+                {"type":"meal", "name":"Flat", "price":"3$/4$"}
+            ] 
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{"rest_name":"Pisco Peru", "rest_address":"Gotthardstrasse 65, Berlin", "blocks":
+    [
+        {"name":"APPETIZERS", "products":
+            [
+                {"type":"meal", "name":"Shrimp Cocktail", "price":"16.00"},
+                {"type":"meal", "name":"Spicy Lobster", "price":"19.00"},
+                {"type":"meal", "name":"Baked Escargot", "price":"16.00"},
+                {"type":"meal", "name":"Seared Ahi Tuna", "price":"17.00"},
+                {"type":"meal", "name":"Prosciutto Wrapped Mozzarella", "price":"14.00"}
+            ]
+        },
+        {"name":"STEAK CUTS", "products":
+            [
+              {"type":"meal", "name":"Filet Mignon, 8 ounce", "price":"38.00"},
+              {"type":"meal", "name":"Filet Mignon, 12 ounce", "price":"49.00"},
+              {"type":"meal", "name":"Rib Eye Steak, 18 ounce", "price":"39.00"},
+              {"type":"meal", "name":"Porterhouse for Two", "price":"40.00"},
+              {"type":"meal", "name":"Classic New York Sirloin", "price":"36.00", "description":"With Jumbo Gulf Shrimp with garlic, white wine, lemon"}
+            ]
+        },
+        {"name":"SEAFOOD", "products":
+            [
+              {"type":"meal", "name":"Stuffed Lobster Tail", "price":"Market Price", "description":"With lump crabmeat and topped with imperial sause"},
+              {"type":"meal", "name":"Maryland Crab Cake Dinner", "price":"16.00", "description":"Two thick, broiled Maryland Style Crab cakes with coleslaw and red remoulade sause"},
+              {"type":"meal", "name":"Whole Lobster", "price":"Market Price", "description":"2-5 lbs. - Stuffed with Crab Imperial"},
+              {"type":"meal", "name":"Clam Zuppa", "price":"14.50", "description":"Garlic & clam soup served with linguine"},
+              {"type":"meal", "name":"Maryland Crab cakes", "price":"22.00"}
+            ]
+        }
+    ],
+    "links":
+        [
+            {"name":"facebook", "link":"https://www.facebook.com"},
+            {"name":"instagram", "link":"https://www.instagram.com"}
+        ]
+}

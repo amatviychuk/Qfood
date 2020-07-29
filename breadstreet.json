@@ -11,7 +11,7 @@
             ]
         },
         {"name":"Перші страви", "products":
-            [                
+            [
                 {"type":"meal", "name":"Бульон з індичкою та локшиною 250г.", "price":"35", "img":"https://static.wixstatic.com/media/cb4d20_eb935d84866c40f5927fc7cbd166ad5d~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
                 {"type":"meal", "name":"Крем-суп із шампіньонів 250г.", "price":"55", "img":"https://static.wixstatic.com/media/cb4d20_593bead82028403f94a73acb2f21c10c~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
                 {"type":"meal", "name":"Крем-суп із картоплі з беконом 250г.", "price":"50"},
@@ -20,7 +20,7 @@
             ]
         },
         {"name":"М'ясні та рибні страви", "products":
-            [                
+            [
                 {"type":"meal", "name":"Куряча дошка з соусом Ранч", "price":"95", "img":"https://static.wixstatic.com/media/cb4d20_f0a693b556474874aa618fb028326541~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
                 {"type":"meal", "name":"Стейк із телятини з овочами гриль 350г.", "price":"160", "img":"https://static.wixstatic.com/media/cb4d20_78d043efc5bb4c398152e954e67a2e29~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
                 {"type":"meal", "name":"Кебаб 350г.", "price":"95"},
@@ -31,14 +31,14 @@
             ]
         },
         {"name":"Гарячі страви", "products":
-            [                
+            [
                 {"type":"meal", "name":"Локшина з телятиною та цибулею-карамель 280г.", "price":"80", "img":"https://static.wixstatic.com/media/cb4d20_1c31bbfd2fda46e58c9b2e854c30cf97~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
                 {"type":"meal", "name":"Паста Карбонара 250г.", "price":"85", "img":"https://static.wixstatic.com/media/cb4d20_0ac102cc2f9d4a968cbc9e7735adcc87~mv2.jpg/v1/fill/w_398,h_265,usm_1.20_1.00_0.01/file.jpg"},
                 {"type":"meal", "name":"Жар курка з локшиною. 280г.", "price":"75"},
                 {"type":"meal", "name":"Овочі гриль з соусом Айолі.250г.", "price":"65"}
             ]
         }
-    ], 
+    ],
     "links":
         [
             {"name":"facebook", "link":"https://www.facebook.com"},

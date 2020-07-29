@@ -54,7 +54,7 @@
 
 .ingredients {
     margin: 0.2em 0 ;
-    margin-right: 2em;
+    margin-right: 3em;
     font-size: 0.8em;
     font-weight: 400;
 } 
@@ -79,7 +79,10 @@
 }
 
 .meal_img {
-    height: 5em;
+    max-height: 5em;
+    min-height: 4em;
+    width: 5em;
+    object-fit: cover;
     margin-right: 1em;
     border-radius: 3px;
 }

@@ -26,6 +26,28 @@
               {"type":"meal", "name":"Clam Zuppa", "price":"14.50", "description":"Garlic & clam soup served with linguine"},
               {"type":"meal", "name":"Maryland Crab cakes", "price":"22.00"}
             ]
+        },
+        {"name":"SALADS AND SOUPS", "products":
+            [
+              {"type":"meal", "name":"Spinach Salad", "price":"9.50", "description":"Apples, goat cheese, apple cider dressing"},
+              {"type":"meal", "name":"Caprese Salad", "price":"7.50", "description":"Ripe tomato with fresh mozzarella and basil"},
+              {"type":"meal", "name":"French Onion Soup", "price":"5.00"},
+              {"type":"meal", "name":"Lobster Bisque", "price":"8.00"}
+            ]
+        },
+        {"name":"SIDES", "products":
+            [
+              {"type":"meal", "name":"Sesame Green Beans", "price":"4.00"},
+              {"type":"meal", "name":"Cole Slaw", "price":"3.00"},
+              {"type":"meal", "name":"Baby Brussels Sprouts", "price":"4.00"},
+              {"type":"meal", "name":"Mashed Potatoes", "price":"4.00"},
+              {"type":"meal", "name":"Hand-Cut Fries", "price":"3.00"},
+              {"type":"meal", "name":"Creamed Spinach", "price":"6.00"},
+              {"type":"meal", "name":"Broiled Tomatoes", "price":"5.00"},
+              {"type":"meal", "name":"Sweet Potato Casserole", "price":"6.00"},
+              {"type":"meal", "name":"Buttermilk Biscuit", "price":"3.50"},
+              {"type":"meal", "name":"Fresh Asparagus", "price":"7.00"}
+            ]
         }
     ],
     "links":

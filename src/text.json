@@ -1,0 +1,53 @@
+{"texts":
+    [
+        {"name":"info_page", "text":
+            [
+                {
+                    "language":"RU", 
+                    "this_is_easy":"Это просто.",
+                    "create_with_us":"Создайте электронное меню вместе с q-food!",
+                    "text_name_1":"Это просто",
+                    "text_1":"Вашим посетителям больше не понадобиться ждать официанта, чтобы начать выбирать блюда.  Всего несколько секунд для сканирования кьюар кода, и все позиции вашего меню окажутся в смартфоне.",
+                    "text_name_2":"Это удобно",
+                    "text_2":"Изменились цены, ингредиенты или позиции — не спешите заново печатать меню! Ваш личный менеджер q-food внесёт все нужные правки. Разместите ссылку на электронное меню в соц сетях или предметах доставки, и клиенты смогут ознакомиться со списком блюд, планируя поход в ваше заведение. Качественные фотографии и стильный дизайн помогут сформировать хорошее впечатление.",
+                    "text_name_3":"Это красиво",
+                    "text_3":"Ваше меню всегда имеет презентабельный вид. Теперь посетители смогут уделить должное внимание каждому блюду, внимательно изучая фотографии и состав. Также Вы сможете изменять стиль под праздники или тематические вечера, делать акцент на акциях и предложениях, а также рассказывать о предстоящих событиях в вашем заведении.",
+                    "we_offer":"Мы предоставляем:",
+                    "we_offer_1":"Создание электронного меню на платформе q-food",
+                    "we_offer_2":"Полное оснащение зала Qr-кодами",
+                    "we_offer_3":"Техническая поддержка и обновление меню"
+                },
+                {
+                    "language":"EN", 
+                    "this_is_easy":"This is easy.",
+                    "create_with_us":"Create e-menu with q-food!",
+                    "text_name_1":"It’s easy",
+                    "text_1":"Visitors no longer need to wait for the waiter to start choosing meals. Just a few seconds of scanning the QR-code and the menu will be on the screen of the smartphone.",
+                    "text_name_2":"It’s comfortable",
+                    "text_2":"Need to change prices, ingredients, or positions? Don’t rush to re-print your menu. Your personal q-food manager will make all the needed changes online. Put the link to the e-menu in social networks or delivery items so clients can check the menu when planning to visit your place. Quality photos and stylish design will help to form a good impression.",
+                    "text_name_3":"It’s beautiful",
+                    "text_3":"Your menu always looks presentable. Now your visitors will be able to pay attention to each dish, carefully examine the photos and ingredients. You can also change the style for the holidays or special events, focus on promotions and offers, and also present upcoming news in your restaurant.",
+                    "we_offer":"We offer:",
+                    "we_offer_1":"Создание электронного меню на платформе q-food",
+                    "we_offer_2":"Полное оснащение зала Qr-кодами",
+                    "we_offer_3":"Техническая поддержка и обновление меню"
+                },
+                {
+                    "language":"PL", 
+                    "this_is_easy":"To jest łatwe.",
+                    "create_with_us":"Create e-menu with q-food!",
+                    "text_name_1":"It’s easy",
+                    "text_1":"Visitors no longer need to wait for the waiter to start choosing meals. Just a few seconds of scanning the QR-code and the menu will be on the screen of the smartphone.",
+                    "text_name_2":"It’s comfortable",
+                    "text_2":"Need to change prices, ingredients, or positions? Don’t rush to re-print your menu. Your personal q-food manager will make all the needed changes online. Put the link to the e-menu in social networks or delivery items so clients can check the menu when planning to visit your place. Quality photos and stylish design will help to form a good impression.",
+                    "text_name_3":"It’s beautiful",
+                    "text_3":"Your menu always looks presentable. Now your visitors will be able to pay attention to each dish, carefully examine the photos and ingredients. You can also change the style for the holidays or special events, focus on promotions and offers, and also present upcoming news in your restaurant.",
+                    "we_offer":"We offer:",
+                    "we_offer_1":"Создание электронного меню на платформе q-food",
+                    "we_offer_2":"Полное оснащение зала Qr-кодами",
+                    "we_offer_3":"Техническая поддержка и обновление меню"
+                }
+            ]
+        }
+    ]
+}

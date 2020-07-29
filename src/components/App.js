@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Route path="/info/:country" component={Info} />
+      <Route exact path="/" component={Info} />
       <Route exact path="/:rest_name" component={Restaurant} />
     </Router>
   );

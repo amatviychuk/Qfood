@@ -6,14 +6,17 @@ import Header from './Header';
 class Restaurant extends React.Component {
     constructor (props) {
         super(props)
-        this.state = {data: null, loading: false};
+        this.state = {
+            data: null, 
+            loading: false
+        };
     }
 
     rest_name = this.props.match.params.rest_name;
 
     getMenuFromGit() {
         this.setState({loading: true})
-        fetch("https://raw.githubusercontent.com/AndrewMos/Qfood/deploy-v2/src/menus/" + this.rest_name + ".json")
+        fetch("https://raw.githubusercontent.com/AndrewMos/Qfood/menus/" + this.rest_name + ".json")
         .then(response => response.json())
         .then((jsonData) => {
           this.setState({data: jsonData})
@@ -23,11 +26,11 @@ class Restaurant extends React.Component {
         })
     }
 
-    
-   
+  
+
     render() {
                
-        if (this.state.data != null) {
+        if (this.state.data != null || this.state.language != null) {
             const renderBlocks = this.state.data['blocks'].map((block, i) => {
                 return (
                     <MenuBlock block={block} key={i} id={i}/>
@@ -44,7 +47,10 @@ class Restaurant extends React.Component {
                 </div>
             );
         } else {
-            if(!this.state.loading) this.getMenuFromGit();
+            
+            if(!this.state.loading) {
+                this.getMenuFromGit();
+            } 
             return (<p>Hard to find your restaurant, sorry...</p>);
         }
     }

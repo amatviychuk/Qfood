@@ -11,7 +11,7 @@
             ]
         },
         {"name":"ZAPIKANKI PREMIUM", "products":
-            [                
+            [
                 {"type":"meal", "name":"Wloski romance", "price":"16,90", "description":"Sos pomidorowy, mozzarella, szynka parmenska, parmezan, oliwa truflowa"},
                 {"type":"meal", "name":"Hiszpanski temperament", "price":"16,90", "description":"Dojrzewajence chorizo cular, tapenada, kapary"},
                 {"type":"meal", "name":"Zbojnicka", "price":"16,90", "description":"Sos pomidorowy, mozzarella, filet z kurczaka, wendzony boczek, camembert, kiszony ogorek"},
@@ -26,7 +26,7 @@
                 {"type":"info", "text":" 3 mini wersje dowolnych zapiekanek "},
                 {"type":"meal", "name":"Klasyczne", "price":"16,90"},
                 {"type":"meal", "name":"Premium", "price":"21,90"}
-            ] 
+            ]
         },
         {"name":"SALATKI", "products":
             [
@@ -43,14 +43,14 @@
                 {"type":"meal", "name":"Indyk teriyaki", "price":"16,90", "description":"Frytki, szarpany indyk reryiaki, ser cheddar, limonka, kolendra"},
                 {"type":"meal", "name":"Bekon & Kurczak", "price":"16,90", "description":"Frytki, kurczak, boczek, ser cheddar, piklowany ogorek, szczypiorek"},
                 {"type":"meal", "name":"Cherry marcarpone", "price":"16,90", "description":"Frytki, pieczarki, pomidorki koktajlowe, ser mascarpone, oliwa czosnkowa, rukola"}
-                
+
             ]
         },
         {"name":"MENU DZICIENCE", "products":
             [
                 {"type":"meal", "name":"Mini zapiekanka", "price":"5,90", "description":"Sos pomidorowy, mozzarella, szynka"},
                 {"type":"meal", "name":"Porcja frytek z sosem", "price":"7,90"}
-            ] 
+            ]
         },
         {"name":"NAPOJE", "products":
             [
@@ -67,12 +67,12 @@
                 {"type":"meal", "name":"Kinley", "price":"6,00"},
                 {"type":"meal", "name":"Fuzetea", "price":"6,00"},
                 {"type":"meal", "name":"Sok owocowy", "price":"6,00"}
-            ] 
+            ]
         }
-    ], 
+    ],
     "links":
         [
-            {"name":"facebook", "link":"https://www.facebook.com/BreadStreetZapieksy/"},
-            {"name":"instagram", "link":"https://www.instagram.com/breadstreet_zapieksy/"}
+            {"name":"facebook", "link":"https://www.facebook.com"},
+            {"name":"instagram", "link":"https://www.instagram.com"}
         ]
 }

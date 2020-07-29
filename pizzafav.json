@@ -40,7 +40,12 @@
                 {"type":"meal", "name":"Americano", "price":"3$/4$"},
                 {"type":"meal", "name":"Late", "price":"3$/4$"},
                 {"type":"meal", "name":"Flat", "price":"3$/4$"}
-            ] 
+            ]
         }
-    ]
+    ],
+    "links":
+        [
+            {"name":"facebook", "link":"https://www.facebook.com"},
+            {"name":"instagram", "link":"https://www.instagram.com"}
+        ]
 }

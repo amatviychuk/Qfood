@@ -45,6 +45,11 @@
                 {"type":"meal", "name":"DR PAPPER, PEPSI LIGHT", "price":"6,00"}
             ]
         }
-        
-    ]
+
+    ],
+    "links":
+        [
+            {"name":"facebook", "link":"https://www.facebook.com"},
+            {"name":"instagram", "link":"https://www.instagram.com"}
+        ]
 }

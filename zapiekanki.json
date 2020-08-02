@@ -1,10 +1,10 @@
-{"rest_name":"Meat & Meat", "rest_address":"Wroclawska 7, Poznan", "blocks":
+{"rest_name":"Zapiekanki", "rest_address":"Wroclawska 7, Poznan", "blocks":
     [
         {"name":"ZAPIEKANKI KLASYCZNE", "products":
             [
                 {"type":"meal", "name":"Tradycja", "price":"14,90", "description":"Sos pomidorowy, mozzarella, pieczarki (vege)", "img":"https://scontent-vie1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/75362574_2889671931066552_2387959335554847688_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=AS9JLmBOiBAAX8nm-71&oh=6a6f42dd605aed615de5330ce7b868a0&oe=5F4615F9"},
-                {"type":"meal", "name":"Tradycja+", "price":"14,90", "description":"Sos pomidorowy, mozzarella, szynka, pieczarki"},
-                {"type":"meal", "name":"Wiejska", "price":"14,90", "description":"Sos pomidorowy, mozzarella, wandzony boczek, kiszony ogorek"},
+                {"type":"meal", "name":"Tradycja+", "price":"14,90", "description":"Sos pomidorowy, mozzarella, szynka, pieczarki", "img":"https://media.verylocal.com/2019/04/30751393-zep2.png"},
+                {"type":"meal", "name":"Wiejska", "price":"14,90", "description":"Sos pomidorowy, mozzarella, wandzony boczek, kiszony ogorek", "img":"https://lh3.googleusercontent.com/proxy/7e2bXIl3OeBdszfhJ0fP-NajuGHpkmqJziICsZ0t8b84DPuyAhJuQkH2Q1OTIPV_AcTjo2J6Wwo5N69MXwMO0lDkaRd0zQFJsQ-paeGLyaPgSIkOU-Cf7IpudQ"},
                 {"type":"meal", "name":"IV sery", "price":"14,90", "description":"Sos pomidorowy, mozzarella, parmezan, camembert, cheddar"},
                 {"type":"meal", "name":"Na ostro", "price":"14,90", "description":"Sos pomidorowy, salami, jalapeno"},
                 {"type":"meal", "name":"Mensna", "price":"14,90", "description":"Sos pomidorowy, mozzarella, marynowany filet z kurczaka"}
@@ -12,9 +12,9 @@
         },
         {"name":"ZAPIKANKI PREMIUM", "products":
             [
-                {"type":"meal", "name":"Wloski romance", "price":"16,90", "description":"Sos pomidorowy, mozzarella, szynka parmenska, parmezan, oliwa truflowa"},
-                {"type":"meal", "name":"Hiszpanski temperament", "price":"16,90", "description":"Dojrzewajence chorizo cular, tapenada, kapary"},
-                {"type":"meal", "name":"Zbojnicka", "price":"16,90", "description":"Sos pomidorowy, mozzarella, filet z kurczaka, wendzony boczek, camembert, kiszony ogorek"},
+                {"type":"meal", "name":"Wloski romance", "price":"16,90", "description":"Sos pomidorowy, mozzarella, szynka parmenska, parmezan, oliwa truflowa", "img":"https://i.pinimg.com/originals/f9/11/96/f91196fe53c1cec55d300c53b77151ad.jpg"},
+                {"type":"meal", "name":"Hiszpanski temperament", "price":"16,90", "description":"Dojrzewajence chorizo cular, tapenada, kapary", "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBP354vD7Yc9Nzc3Md8qElWoSdjs2E5nHexw&usqp=CAU"},
+                {"type":"meal", "name":"Zbojnicka", "price":"16,90", "description":"Sos pomidorowy, mozzarella, filet z kurczaka, wendzony boczek, camembert, kiszony ogorek", "img":"https://www.polonist.com/wp-content/uploads/2019/05/Polish-zapiekanka-3b-600x900.jpg"},
                 {"type":"meal", "name":"Pulled pork", "price":"16,90", "description":"Sos pomidorowy, mozzarella, szarpana wieprzowina, piklowana czerwona cebula"},
                 {"type":"meal", "name":"Meksykanska", "price":"16,90", "description":"Sos pomidorowy, mozzarella, wolowina po meksykansku z czerwona fasola i kukurydza, papryczki jalapeno, nachos"},
                 {"type":"meal", "name":"Toskanska", "price":"16,90", "description":"Sos pomidorowy, mozzarella, suszone pomidory, maskarpone, pomidorki koktejlowe, krem balsamiczny"},

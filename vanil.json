@@ -6,7 +6,7 @@
     [
         {"name":"Пирожные", "products":
             [
-                {"type":"meal", "name":"БАНОФФИ 240г.", "price":"60", "description":"Английский пирог с бананами в солёной карамели.", "img":"https://storage.googleapis.com/rest_images/plt_vanil/img1.png"},
+                {"type":"meal", "name":"БАНОФФИ 240г.", "price":"60", "description":"Английский пирог с бананами в солёной карамели.", "img":"https://storage.googleapis.com/rest_images/plt_vanil/img1.png"}
             ]
         }
     ],

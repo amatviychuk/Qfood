@@ -39,7 +39,13 @@ class Restaurant extends React.Component {
 
             return (
                 <div>
-                    <Header name={this.state.data['rest_name']} address={this.state.data['rest_address']} links={this.state.data['links']} />
+                    <Header 
+                        name={this.state.data['rest_name']} 
+                        address={this.state.data['rest_address']} 
+                        links={this.state.data['links']} 
+                        logo_img={this.state.data['logo_img']}
+                        header_img={this.state.data['header_img']}     
+                    />
                     <div className='menu_column'>
                         <span className="menu"> MENU </span>
                         {renderBlocks}

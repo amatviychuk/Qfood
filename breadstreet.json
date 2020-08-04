@@ -1,4 +1,8 @@
-{"rest_name":"Bread Street", "rest_address":"Шевченка 65, Полтава", "blocks":
+{ "rest_name":"Bread Street",
+  "rest_address":"Шевченка 65, Полтава",
+  "logo_img":"https://storage.googleapis.com/rest_images/webapp_images/rest_logo.jpeg",
+  "header_img":"https://storage.googleapis.com/rest_images/webapp_images/background.png",
+  "blocks":
     [
         {"name":"Салати", "products":
             [

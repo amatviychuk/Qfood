@@ -1,4 +1,8 @@
-{"rest_name":"Zapiekanki", "rest_address":"Wroclawska 7, Poznan", "blocks":
+{ "rest_name":"Zapiekanki",
+  "rest_address":"Wroclawska 7, Poznan",
+  "logo_img":"https://storage.googleapis.com/rest_images/webapp_images/rest_logo.jpeg",
+  "header_img":"https://storage.googleapis.com/rest_images/webapp_images/background.png",
+  "blocks":
     [
         {"name":"ZAPIEKANKI KLASYCZNE", "products":
             [

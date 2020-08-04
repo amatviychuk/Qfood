@@ -1,4 +1,8 @@
-{"rest_name":"Pisco Peru", "rest_address":"Gotthardstrasse 65, Berlin", "blocks":
+{ "rest_name":"Pisco Peru",
+  "rest_address":"Gotthardstrasse 65, Berlin",
+  "logo_img":"https://storage.googleapis.com/rest_images/webapp_images/rest_logo.jpeg",
+  "header_img":"https://storage.googleapis.com/rest_images/webapp_images/background.png",
+  "blocks":
     [
         {"name":"APPETIZERS", "products":
             [

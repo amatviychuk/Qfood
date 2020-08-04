@@ -4,7 +4,7 @@
             [
                 {"type":"meal", "name":"Tradycja", "price":"14,90", "description":"Sos pomidorowy, mozzarella, pieczarki (vege)", "img":"https://scontent-vie1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/75362574_2889671931066552_2387959335554847688_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=AS9JLmBOiBAAX8nm-71&oh=6a6f42dd605aed615de5330ce7b868a0&oe=5F4615F9"},
                 {"type":"meal", "name":"Tradycja+", "price":"14,90", "description":"Sos pomidorowy, mozzarella, szynka, pieczarki", "img":"https://media.verylocal.com/2019/04/30751393-zep2.png"},
-                {"type":"meal", "name":"Wiejska", "price":"14,90", "description":"Sos pomidorowy, mozzarella, wandzony boczek, kiszony ogorek", "img":"https://lh3.googleusercontent.com/proxy/7e2bXIl3OeBdszfhJ0fP-NajuGHpkmqJziICsZ0t8b84DPuyAhJuQkH2Q1OTIPV_AcTjo2J6Wwo5N69MXwMO0lDkaRd0zQFJsQ-paeGLyaPgSIkOU-Cf7IpudQ"},
+                {"type":"meal", "name":"Wiejska", "price":"14,90", "description":"Sos pomidorowy, mozzarella, wandzony boczek, kiszony ogorek"},
                 {"type":"meal", "name":"IV sery", "price":"14,90", "description":"Sos pomidorowy, mozzarella, parmezan, camembert, cheddar"},
                 {"type":"meal", "name":"Na ostro", "price":"14,90", "description":"Sos pomidorowy, salami, jalapeno"},
                 {"type":"meal", "name":"Mensna", "price":"14,90", "description":"Sos pomidorowy, mozzarella, marynowany filet z kurczaka"}

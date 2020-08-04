@@ -51,7 +51,7 @@ class Restaurant extends React.Component {
             if(!this.state.loading) {
                 this.getMenuFromGit();
             } 
-            return (<p>Hard to find your restaurant, sorry...</p>);
+            return (null);
         }
     }
 }

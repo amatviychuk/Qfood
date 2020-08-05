@@ -1,6 +1,7 @@
 import React from 'react';
 import './MenuBlock.css';
-import arrow from '../icons/arrow.png';
+import arrow_black from '../icons/arrow_black.png';
+import arrow_white from '../icons/arrow_white.png';
 
 class MenuBlock extends React.Component {
    constructor(props) {
@@ -35,7 +36,7 @@ class MenuBlock extends React.Component {
 
             case 'meal':
                return (
-               <div key={i} className="meal_block">
+               <div style={{background: this.props.design.find(t => t.name === "menu_background").color}} key={i} className="meal_block">
                   {line['img']?<img className="meal_img" src={line['img']} alt=""/>:null}
                   <div className="product">
                      <div className='name_price'>
@@ -58,10 +59,10 @@ class MenuBlock extends React.Component {
       return (
 
 
-         <div className='block' id={this.props.block['name']}>
-            <div onClick={openClose} className='block_name'>
+         <div className='block' style={{background: this.props.design.find(t => t.name === "menu_small").color}} id={this.props.block['name']}>
+            <div style={{color: this.props.design.find(t => t.name === "menu_small_font").color}} onClick={openClose} className='block_name'>
                {this.props.block['name']} 
-               <img className={this.state.isOpen?"arrow rot":"arrow"} src={arrow} alt=""/> 
+               <img className={this.state.isOpen?"arrow rot":"arrow"} src={arrow_white} alt=""/> 
             </div>
             {this.state.isOpen?renderBlock:null}
          </div>

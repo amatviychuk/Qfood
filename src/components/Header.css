@@ -1,14 +1,12 @@
 .header_img {
     width: 100%;
     height: 10em;
-    /* background-image: url("https://storage.googleapis.com/rest_images/webapp_images/background.png"); */
     background-position: center;
     background-size: 100%;
     
 }
 
 .logo_circle {
-    /* background-image: url("https://storage.googleapis.com/rest_images/webapp_images/rest_logo.jpeg"); */
     border-radius: 50%;
     width: 8em;
     height: 8em;

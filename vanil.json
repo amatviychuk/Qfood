@@ -1,18 +1,53 @@
-{ "rest_name":"Ваниль",
-  "rest_address":"Полтава, Небесной Сотни 9/17",
-  "logo_img":"https://storage.googleapis.com/rest_images/plt_vanil/logo.jpg",
-  "header_img":"https://storage.googleapis.com/rest_images/webapp_images/background.png",
-  "blocks":
-    [
-        {"name":"Пирожные", "products":
-            [
-                {"type":"meal", "name":"БАНОФФИ 240г.", "price":"60", "description":"Английский пирог с бананами в солёной карамели.", "img":"https://storage.googleapis.com/rest_images/plt_vanil/img1.png"}
-            ]
-        }
-    ],
-    "links":
-        [
-            {"name":"facebook", "link":"https://www.facebook.com/vanilpoltava/"},
-            {"name":"instagram", "link":"https://www.instagram.com/vanil_poltava_/"}
-        ]
+{
+	"rest_name": "Ваниль",
+	"rest_address": "Полтава, Небесной Сотни 9/17",
+	"blocks": [{
+		"name": "Пирожные",
+		"products": [{
+			"type": "meal",
+			"name": "БАНОФФИ 240г.",
+			"price": "60",
+			"description": "Английский пирог с бананами в солёной карамели.",
+			"img": "https://storage.googleapis.com/rest_images/plt_vanil/img1.png"
+		}]
+	}],
+	"links": [{
+			"name": "facebook",
+			"link": "https://www.facebook.com/vanilpoltava/"
+		},
+		{
+			"name": "instagram",
+			"link": "https://www.instagram.com/vanil_poltava_/"
+		}
+	],
+	"design": [
+    {
+      "name":"background_color",
+      "color":"#FFF7E1"
+    },
+    {
+        "name":"font_color",
+        "color":"#5C3736"
+    },
+    {
+        "name":"menu_background",
+        "color":"#FFFBEF"
+    },
+    {
+        "name":"menu_head",
+        "color":"#D4927A"
+    },
+    {
+        "name":"menu_small",
+        "color":"#885D4D"
+    },
+    {
+        "name":"logo_img",
+        "link":"https://storage.googleapis.com/rest_images/plt_vanil/logo.jpg"
+    },
+  	{
+        "name":"header_img",
+        "link":"https://storage.googleapis.com/rest_images/webapp_images/background.png"
+    }
+	]
 }

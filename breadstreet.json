@@ -1,7 +1,7 @@
 { "rest_name":"Bread Street",
   "rest_address":"Шевченка 65, Полтава",
-  "logo_img":"https://storage.googleapis.com/rest_images/webapp_images/rest_logo.jpeg",
-  "header_img":"https://storage.googleapis.com/rest_images/webapp_images/background.png",
+  "logo_img":"",
+  "header_img":"",
   "blocks":
     [
         {"name":"Салати", "products":
@@ -47,5 +47,47 @@
         [
             {"name":"facebook", "link":"https://www.facebook.com"},
             {"name":"instagram", "link":"https://www.instagram.com"}
-        ]
+        ],
+
+        "design": [
+          {
+            "name":"background_color",
+            "color":"#FFF7E1"
+          },
+          {
+              "name":"font_color",
+              "color":"#5C3736"
+          },
+          {
+              "name":"menu_background",
+              "color":"#FFFBEF"
+          },
+          {
+              "name":"menu_head",
+              "color":"#D4927A"
+          },
+          {
+              "name":"menu_small",
+              "color":"#885D4D"
+          },
+          {
+              "name":"logo_img",
+              "link":"https://storage.googleapis.com/rest_images/webapp_images/rest_logo.jpeg"
+          },
+          {
+              "name":"header_img",
+              "link":"https://storage.googleapis.com/rest_images/webapp_images/background.png"
+          },
+          {
+              "name":"theme",
+              "data":"light"
+          },
+          {
+              "name":"menu_head_font",
+              "color":"#FFFFFF"
+          },
+          {
+              "name":"menu_small_font",
+              "color":"#FFFFFF"
+          }
 }

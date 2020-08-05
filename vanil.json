@@ -3,13 +3,29 @@
 	"rest_address": "Полтава, Небесной Сотни 9/17",
 	"blocks": [{
 		"name": "Пирожные",
-		"products": [{
+		"products": [
+    {
 			"type": "meal",
-			"name": "БАНОФФИ 240г.",
+			"name": "Баноффи 240г.",
 			"price": "60",
-			"description": "Английский пирог с бананами в солёной карамели.",
-			"img": "https://storage.googleapis.com/rest_images/plt_vanil/img1.png"
-		}]
+			"description": "Английский пирог с бананами в солёной карамели",
+			"img": "https://storage.googleapis.com/rest_images/plt_vanil/banoffi.png"
+		},
+    {
+      "type": "meal",
+      "name": "Фисташковый эклер 100г.",
+      "price": "60",
+      "description": "Заварное тесто с фисташковой начинкой и итальянской меренгой",
+      "img": "https://storage.googleapis.com/rest_images/plt_vanil/bananowyi_ekler.png"
+    },
+    {
+			"type": "meal",
+			"name": "Чёрный бархат 210г.",
+			"price": "60",
+			"description": "Десерт на основе чёрного бархатного бисквита в дополнении шоколадного крема «Англес»",
+			"img": "https://storage.googleapis.com/rest_images/plt_vanil/chernyi_barhat.png"
+		}
+  ]
 	}],
 	"links": [{
 			"name": "facebook",

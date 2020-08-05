@@ -48,6 +48,18 @@
   	{
         "name":"header_img",
         "link":"https://storage.googleapis.com/rest_images/webapp_images/background.png"
+    },
+    {
+        "name":"theme",
+        "data":"light"
+    },
+    {
+        "name":"menu_head_font",
+        "color":"#FFFFFF"
+    },
+    {
+        "name":"menu_head_font",
+        "color":"#FFFFFF"
     }
 	]
 }

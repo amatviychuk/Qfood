@@ -50,23 +50,23 @@
         "design": [
           {
             "name":"background_color",
-            "color":"#FFF7E1"
+            "color":""
           },
           {
               "name":"font_color",
-              "color":"#5C3736"
+              "color":""
           },
           {
               "name":"menu_background",
-              "color":"#FFFBEF"
+              "color":""
           },
           {
               "name":"menu_head",
-              "color":"#D4927A"
+              "color":""
           },
           {
               "name":"menu_small",
-              "color":"#885D4D"
+              "color":""
           },
           {
               "name":"logo_img",
@@ -78,15 +78,15 @@
           },
           {
               "name":"theme",
-              "data":"light"
+              "data":"dark"
           },
           {
               "name":"menu_head_font",
-              "color":"#FFFFFF"
+              "color":""
           },
           {
               "name":"menu_small_font",
-              "color":"#FFFFFF"
+              "color":""
           }
         ]
 }

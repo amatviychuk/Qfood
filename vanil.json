@@ -1,81 +1,204 @@
 {
-	"rest_name": "Ваниль",
-	"rest_address": "Полтава, Небесной Сотни 9/17",
-	"blocks": [{
-		"name": "Пирожные",
-		"products": [
+  "rest_name": "Ваниль",
+  "rest_address": "Полтава, Небесной Сотни 9/17",
+  "blocks": [
     {
-			"type": "meal",
-			"name": "Баноффи 240г.",
-			"price": "60",
-			"description": "Английский пирог с бананами в солёной карамели",
-			"img": "https://storage.googleapis.com/rest_images/plt_vanil/banoffi.png"
-		},
-    {
-      "type": "meal",
-      "name": "Фисташковый эклер 100г.",
-      "price": "60",
-      "description": "Заварное тесто с фисташковой начинкой и итальянской меренгой",
-      "img": "https://storage.googleapis.com/rest_images/plt_vanil/bananowyi_ekler.png"
+      "name": "Пирожные",
+      "products": [
+        {
+          "type": "meal",
+          "name": "Баноффи 240г.",
+          "price": "60",
+          "description": "Английский пирог с бананами в солёной карамели",
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/banoffi.png"
+        },
+        {
+          "type": "meal",
+          "name": "Фисташковый эклер 100г.",
+          "price": "60",
+          "description": "Заварное тесто с фисташковой начинкой и итальянской меренгой",
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/bananowyi_ekler.png"
+        },
+        {
+          "type": "meal",
+          "name": "Чёрный бархат 210г.",
+          "price": "60",
+          "description": "Десерт на основе чёрного бархатного бисквита в дополнении шоколадного крема «Англес»",
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/chernyi_barhat.png"
+        },
+        {
+          "type": "meal",
+          "name": "Египетское 180г.",
+          "price": "65",
+          "description": "Воздушные белково-ореховые коржи в сочетании с заварным и сливочным кремом",
+          "img": ""
+        },
+        {
+          "type": "meal",
+          "name": "Black&White 180г.",
+          "price": "60",
+          "description": "Сочетание нежного орехового бисквита, без муки, и двух кроме рококо белого и чёрного.",
+          "img": ""
+        },
+        {
+          "type": "meal",
+          "name": "Брауни 80/60 г.",
+          "price": "60",
+          "description": "Классический американский шоколадно-ореховый десерт с шоколадным соусом. Подается тёплым",
+          "img": ""
+        }
+      ]
     },
     {
-			"type": "meal",
-			"name": "Чёрный бархат 210г.",
-			"price": "60",
-			"description": "Десерт на основе чёрного бархатного бисквита в дополнении шоколадного крема «Англес»",
-			"img": "https://storage.googleapis.com/rest_images/plt_vanil/chernyi_barhat.png"
-		}
-  ]
-	}],
-	"links": [{
-			"name": "facebook",
-			"link": "https://www.facebook.com/vanilpoltava/"
-		},
-		{
-			"name": "instagram",
-			"link": "https://www.instagram.com/vanil_poltava_/"
-		}
-	],
-	"design": [
-    {
-      "name":"background_color",
-      "color":"#FFF7E1"
-    },
-    {
-        "name":"font_color",
-        "color":"#5C3736"
-    },
-    {
-        "name":"menu_background",
-        "color":"#FFFBEF"
-    },
-    {
-        "name":"menu_head",
-        "color":"#D4927A"
-    },
-    {
-        "name":"menu_small",
-        "color":"#885D4D"
-    },
-    {
-        "name":"logo_img",
-        "link":"https://storage.googleapis.com/rest_images/plt_vanil/logo.jpg"
-    },
-  	{
-        "name":"header_img",
-        "link":"https://storage.googleapis.com/rest_images/webapp_images/background.png"
-    },
-    {
-        "name":"theme",
-        "data":"light"
-    },
-    {
-        "name":"menu_head_font",
-        "color":"#FFFFFF"
-    },
-    {
-        "name":"menu_small_font",
-        "color":"#FFFFFF"
+      "name": "Кофе",
+      "products": [
+        {
+          "type": "meal",
+          "name": "Эспрессо 30мл.",
+          "price": "25"
+        },
+        {
+          "type": "meal",
+          "name": "Доппио 60мл.",
+          "price": "40"
+        },
+        {
+          "type": "meal",
+          "name": "Американо 80мл.",
+          "price": "25"
+        },
+        {
+          "type": "meal",
+          "name": "Кофе по-венски 80мл.",
+          "price": "40"
+        },
+        {
+          "type": "meal",
+          "name": "Гляссе 80мл.",
+          "price": "40"
+        },
+        {
+          "type": "meal",
+          "name": "Капучино 200мл.",
+          "price": "35"
+        },
+        {
+          "type": "meal",
+          "name": "Латте-маккиятто 200мл.",
+          "price": "40"
+        },
+        {
+          "type": "meal",
+          "name": "Раф-кофе 200мл.",
+          "price": "45"
+        },
+        {
+          "type": "meal",
+          "name": "Горячий шоколад 50мл.",
+          "price": "40"
+        },
+        {
+          "type": "meal",
+          "name": "Какао 200мл.",
+          "price": "40"
+        },
+        {
+          "type": "meal",
+          "name": "Кофе по-советски 90мл.",
+          "price": "35"
+        },
+        {
+          "type": "meal",
+          "name": "Медовый латте 200мл.",
+          "price": "40"
+        },
+        {
+          "type": "meal",
+          "name": "Flat white 200мл.",
+          "price": "35"
+        },
+        {
+          "type": "info",
+          "text": "Дополнительные ингредиенты"
+        },
+        {
+          "type": "meal",
+          "name": "Мёд 30мл.",
+          "price": "10"
+        },
+        {
+          "type": "meal",
+          "name": "Молоко 100мл.",
+          "price": "10"
+        },
+        {
+          "type": "meal",
+          "name": "Сливки порционные 1шт.",
+          "price": "10"
+        },
+        {
+          "type": "meal",
+          "name": "Лимон 10гр.",
+          "price": "5"
+        },
+        {
+          "type": "meal",
+          "name": "Мята 10гр.",
+          "price": "8"
+        }
+      ]
     }
-	]
+  ],
+  "links": [
+    {
+      "name": "facebook",
+      "link": "https://www.facebook.com/vanilpoltava/"
+    },
+    {
+      "name": "instagram",
+      "link": "https://www.instagram.com/vanil_poltava_/"
+    }
+  ],
+  "design": [
+    {
+      "name": "background_color",
+      "color": "#FFF7E1"
+    },
+    {
+      "name": "font_color",
+      "color": "#5C3736"
+    },
+    {
+      "name": "menu_background",
+      "color": "#FFFBEF"
+    },
+    {
+      "name": "menu_head",
+      "color": "#D4927A"
+    },
+    {
+      "name": "menu_small",
+      "color": "#885D4D"
+    },
+    {
+      "name": "logo_img",
+      "link": "https://storage.googleapis.com/rest_images/plt_vanil/logo.jpg"
+    },
+    {
+      "name": "header_img",
+      "link": "https://storage.googleapis.com/rest_images/webapp_images/background.png"
+    },
+    {
+      "name": "theme",
+      "data": "light"
+    },
+    {
+      "name": "menu_head_font",
+      "color": "#FFFFFF"
+    },
+    {
+      "name": "menu_small_font",
+      "color": "#FFFFFF"
+    }
+  ]
 }

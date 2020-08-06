@@ -837,7 +837,7 @@
   "design": [
     {
       "name": "background_color",
-      "color": "#FFF7E1"
+      "color": "#F4F4F4"
     },
     {
       "name": "font_color",

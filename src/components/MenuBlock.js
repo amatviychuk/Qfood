@@ -55,6 +55,7 @@ class MenuBlock extends React.Component {
       });
 
       const openClose = () => {this.setState({isOpen:!this.state.isOpen})}
+      const theme = this.props.design.find(t => t.name === "theme").data==='dark';
 
       return (
 
@@ -62,7 +63,7 @@ class MenuBlock extends React.Component {
          <div className='block' style={{background: this.props.design.find(t => t.name === "menu_small").color}} id={this.props.block['name']}>
             <div style={{color: this.props.design.find(t => t.name === "menu_small_font").color}} onClick={openClose} className='block_name'>
                {this.props.block['name']} 
-               <img className={this.state.isOpen?"arrow rot":"arrow"} src={arrow_white} alt=""/> 
+               <img className={this.state.isOpen?"arrow rot":"arrow"} src={theme?arrow_black:arrow_white} alt=""/> 
             </div>
             {this.state.isOpen?renderBlock:null}
          </div>

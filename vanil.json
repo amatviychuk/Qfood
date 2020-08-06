@@ -31,84 +31,84 @@
           "name": "Египетское 180г.",
           "price": "65",
           "description": "Воздушные белково-ореховые коржи в сочетании с заварным и сливочным кремом",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Egipet.png"
         },
         {
           "type": "meal",
           "name": "Black&White 180г.",
           "price": "60",
           "description": "Сочетание нежного орехового бисквита, без муки, и двух кроме рококо белого и чёрного.",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/BlackAndWhite.png"
         },
         {
           "type": "meal",
           "name": "Брауни 80/60 г.",
           "price": "60",
           "description": "Классический американский шоколадно-ореховый десерт с шоколадным соусом. Подается тёплым",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Brauni.png"
         },
         {
           "type": "meal",
           "name": "Чизкейк с ежевикой 160г.",
           "price": "60",
           "description": "Десерт на основе нежного сыра «Филадельфия» с тонком нежным слоем соленого печенья, подаётся с ежевичным соусом ",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/ChisecakeEzevika.png"
         },
         {
           "type": "meal",
           "name": "Эстерхази мороженое 200г.",
           "price": "75",
           "description": "Это десерт в котором сочетаются вкус орехового бисквита белого и ванильного мороженого с тертым шоколадом ",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/EsterMorozenoe.png"
         },
         {
           "type": "meal",
           "name": "Наполеон 100г.",
           "price": "50",
           "description": "Всеми любимый слоеный торт на основе натурального заварного крема на молоке. Был придуман к 100-летию изгнания Наполеона Бонапарта",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Napoleon.png"
         },
         {
           "type": "meal",
           "name": "Панна-котта 200г.",
           "price": "55",
           "description": "Это необычайно нежный, воздушный десерт, родиной которого является Италия, с клубнично-ежевичным соусом",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/PanaKota.png"
         },
         {
           "type": "meal",
           "name": "Фисташио 110г.",
           "price": "60",
           "description": "Десерт в котором сочетается вкус белого шоколада и фисташкового ганаша. Ещё в древности азиатские кондитеры добавляли фисташки в десерты, подчеркивая вкус и нежность этого десерта",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Fistashyo.png"
         },
         {
           "type": "meal",
           "name": "Захер 150г.",
           "price": "60",
           "description": "Торт «Захер» представляет собой шоколадный бисквит с одним или двумя слоями абрикосового конфитюра, покрытый сверху шоколадным ганашем",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Saher.png"
         },
         {
           "type": "meal",
           "name": "Эстерхази 130г.",
           "price": "65",
           "description": "Миндально-сливочный торт, разработанный по старинному венгерскому рецепту, который соединяет тонкий вкус миндаля и сливочного крема. Торт назван в честь Пала Антала Эстерхази министра иностранных дел Венгрии",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Ester.png"
         },
         {
           "type": "meal",
           "name": "Опера 120г.",
           "price": "60",
           "description": "Шедевр французских кондитеров на основе бисквита Джоконда приготовленный из миндальной муки, кофейного крема и шоколадного ганаша. История этого торта охватывает более 100 лет, он был назван в честь парижской оперы кондитером Лиу Клиши",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Opera.png"
         },
         {
           "type": "meal",
           "name": "Красный бархат 220г.",
           "price": "60",
           "description": "Десерт на основе сыра Филадельфия и бархатного бисквита красного цвета, популярность которого пришла к нам из США",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/KrasnyiBarhat.png"
         },
         {
           "type": "meal",
@@ -136,21 +136,21 @@
           "name": "Макарунс 1шт.",
           "price": "30",
           "description": "Французское миндальное печенье",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Makarun.png"
         },
         {
           "type": "meal",
           "name": "Крем-брюле 130г.",
           "price": "60",
           "description": "Десерт из ванильного суфле с карамельной корочкой",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/KremBrule.png"
         },
         {
           "type": "meal",
           "name": "Голубая матча 100г.",
           "price": "60",
           "description": "Десерт на основе японского синего чая Матча с клубничным муссом и белым шоколадом",
-          "img": ""
+          "img": "https://storage.googleapis.com/rest_images/plt_vanil/Golubaya.png"
         }
       ]
     },

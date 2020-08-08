@@ -37,13 +37,13 @@ class MenuBlock extends React.Component {
             case 'meal':
                return (
                <div style={{background: this.props.design.find(t => t.name === "menu_background").color}} key={i} className="meal_block">
-                  {line['img']?<img className="meal_img" src={line['img']} alt=""/>:null}
+                  {line['img']?<div className="meal_img" style={{backgroundImage: `url(${line['img']}` }} alt=""/>:null}
                   <div className="product">
-                     <div className='name_price'>
+                     <div style={{color: this.props.design.find(t => t.name === "menu_font").color}} className='name_price'>
                         <span className='name'>{line['name']}</span>
                         <span className='price'>{line['price']}</span>
                      </div>
-                     <div className='ingredients'>{line['description']}</div>
+                     <div style={{color: this.props.design.find(t => t.name === "menu_font").color}} className='ingredients'>{line['description']}</div>
                   </div>
                </div>
                );

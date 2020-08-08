@@ -40,7 +40,7 @@ class Restaurant extends React.Component {
 
             return (
                 <div>
-
+                    <div style={{backgroundImage: `url(${this.state.data['design'].find(t => t.name === "background_img").img})`}} className="background_img"></div>
                     <Header 
                         name={this.state.data['rest_name']} 
                         address={this.state.data['rest_address']} 
@@ -48,7 +48,7 @@ class Restaurant extends React.Component {
                         design={this.state.data['design']}    
                     />
                     <div style={{background: this.state.data['design'].find(t => t.name === "menu_head").color}} className='menu_column'>
-                        <span style={{color: this.state.data['design'].find(t => t.name === "menu_head_font").color}} className="menu"> MENU </span>
+                        <span style={{color: this.state.data['design'].find(t => t.name === "menu_head_font").color}} className="menu">{this.state.data['menu']} </span>
                         {renderBlocks}
                     </div>
                 </div>

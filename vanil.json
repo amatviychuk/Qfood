@@ -879,6 +879,10 @@
     {
       "name": "menu_small_font",
       "color": "#FFFFFF"
+    },
+    {
+      "name": "header_font",
+      "color": "#FFFFFF"
     }
   ]
 }

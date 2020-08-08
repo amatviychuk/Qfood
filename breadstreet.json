@@ -87,6 +87,10 @@
           {
               "name":"menu_small_font",
               "color":""
+          },
+          {
+            "name": "header_font",
+            "color": "#000000"
           }
         ]
 }

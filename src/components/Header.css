@@ -3,7 +3,10 @@
     height: 10em;
     background-position: center;
     background-size: 100%;
-    
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+    animation-fill-mode: both;
 }
 
 .logo_circle {
@@ -16,7 +19,8 @@
     box-shadow: 0px 0px 25px rgba(115, 114, 114, 0.57);
     animation: slideInUp, fadeIn;
     animation-duration: 1s;
-    animation-delay: 0;
+    animation-delay: 2000ms;
+    animation-fill-mode: both;
 }
 
 .info_block {
@@ -35,7 +39,7 @@
     font-weight: 600;
     animation: slideInUp, fadeIn;
     animation-duration: 1s;
-    animation-delay: 200ms;
+    animation-delay: 2200ms;
     animation-fill-mode: both;
     color: #363636;
 }
@@ -47,7 +51,7 @@
     margin-top: 0.2em;
     animation: slideInUp, fadeIn;
     animation-duration: 1s;
-    animation-delay: 400ms;
+    animation-delay: 2400ms;
     animation-fill-mode: both;
 }
 
@@ -58,7 +62,7 @@
     margin-top: 1.2em;
     animation: slideInUp, fadeIn;
     animation-duration: 1s;
-    animation-delay: 450ms;
+    animation-delay: 2450ms;
     animation-fill-mode: both;
 }
 

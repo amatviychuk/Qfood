@@ -13,7 +13,7 @@
     margin-bottom: 2em;
     animation: slideInUp, fadeIn;
     animation-duration: 1s;
-    animation-delay: 200ms;
+    animation-delay: 2200ms;
     animation-fill-mode: both;
     max-width: 40em;
     min-width: 15em;
@@ -35,4 +35,8 @@
     height: 100vh;
     background-size: 100%;
     max-width: 800px;
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+    animation-fill-mode: both;
 }

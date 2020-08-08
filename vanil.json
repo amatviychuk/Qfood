@@ -840,6 +840,10 @@
       "color": "#F4F4F4"
     },
     {
+      "name": "background_img",
+      "img": "https://storage.googleapis.com/rest_images/plt_vanil/background_img.png"
+    },
+    {
       "name": "font_color",
       "color": "#5C3736"
     },

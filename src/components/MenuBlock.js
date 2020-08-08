@@ -11,7 +11,7 @@ class MenuBlock extends React.Component {
         };
         if (props.id === 0) {
          this.state = {
-            isOpen:true
+            // isOpen:true
         };
         }
     }

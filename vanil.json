@@ -858,7 +858,7 @@
     },
     {
       "name": "menu_small",
-      "color": "#885D4D"
+      "color": "#A7634A"
     },
     {
       "name": "logo_img",
@@ -883,6 +883,10 @@
     {
       "name": "header_font",
       "color": "#FFFFFF"
+    },
+    {
+      "name": "menu_font",
+      "color": "#5F3737"
     }
   ]
 }

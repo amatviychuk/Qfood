@@ -842,7 +842,7 @@
     },
     {
       "name": "background_img",
-      "img": "https://storage.googleapis.com/rest_images/plt_vanil/background_img.png"
+      "img": "https://storage.googleapis.com/rest_images/plt_vanil/back.png"
     },
     {
       "name": "font_color",
